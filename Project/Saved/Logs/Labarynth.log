@@ -2893,3 +2893,674 @@ Please see Output Log for details.
 [2019.06.27-22.12.41:973][998]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
 [2019.06.27-22.12.52:099][203]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=314.750 Y=514.510 Z=294.774] for [FirstPersonProjectile_C]
 [2019.06.27-22.12.52:773][284]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=448.746 Y=384.781 Z=307.654] for [FirstPersonProjectile_C]
+[2019.06.27-22.17.52:187][704]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.27-22.17.52:187][704]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.27-22.17.52:217][704]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.27-22.17.52:217][704]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.27-22.17.52:251][704]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.27-22.17.52:254][704]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2019.06.27-22.17.52:295][706]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2019.06.27-22.17.56:346][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.27-22.18.44:958][834]LogAssetEditorManager: Opening Asset editor for Material /Game/FirstPersonBP/PP/PP_Cel.PP_Cel
+[2019.06.27-22.18.44:964][834]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.45:037][834]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.45:046][834]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.45:080][834]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.45:086][834]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.46:186][915]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.18.46:186][915]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.18.46:186][915]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.18.46:186][915]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.18.54:422][739]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.54:428][739]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.54:456][739]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.54:687][752]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.54:699][752]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.54:735][752]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.54:760][752]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.54:768][752]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.54:785][752]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.18.54:801][752]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.54:827][752]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.54:835][752]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.54:852][752]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.18.54:867][752]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.54:893][752]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.54:901][752]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.54:934][752]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.54:965][753]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.18.55:065][758]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.55:074][758]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.55:106][758]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.55:134][758]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.55:183][758]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.55:191][758]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.55:202][758]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.55:235][758]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.18.55:705][783]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.55:712][783]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.55:741][783]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.55:852][789]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.55:861][789]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.55:894][789]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.55:927][789]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.55:941][789]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.55:974][789]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.56:000][789]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.56:009][789]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.56:041][789]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.56:062][789]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.18.56:066][789]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.56:074][789]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.56:111][789]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.56:138][790]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.18.56:149][790]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.56:156][790]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.56:189][790]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.56:211][790]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.56:259][790]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.56:266][790]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.56:275][790]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.56:374][791]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.18.56:670][809]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.56:678][809]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.56:710][809]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.56:791][811]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.56:800][811]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.56:832][811]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.56:854][811]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.18.56:858][811]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.56:867][811]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.56:899][811]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.56:925][811]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.56:934][811]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.56:967][811]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.56:992][811]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.56:999][811]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.57:033][811]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.57:053][811]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.57:096][811]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.57:104][811]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.57:112][811]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.57:183][812]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.18.57:726][846]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.18.57:726][846]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.18.57:726][846]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.18.57:726][846]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.18.58:562][943]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.58:568][943]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.58:596][943]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.58:973][965]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.58:980][965]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.59:011][965]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.59:030][965]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.59:036][965]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.59:067][965]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.59:092][965]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.59:101][965]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.59:136][965]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.59:238][969]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.18.59:252][969]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.59:259][969]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.59:276][969]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.18.59:291][969]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.59:309][969]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.59:330][969]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.18.59:357][969]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.18.59:369][969]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.18.59:377][969]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.18.59:456][970]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.18.59:971][  4]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.18.59:971][  4]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.18.59:971][  4]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.18.59:971][  4]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.19.02:329][279]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.02:335][279]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.02:363][279]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.02:416][281]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.02:423][281]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.02:455][281]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.02:473][281]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.02:520][281]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.02:529][281]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.02:537][281]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.02:621][282]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.03:138][316]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.19.03:138][316]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.19.03:138][316]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.19.03:138][316]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.19.03:603][368]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.03:610][368]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.03:638][368]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.03:904][383]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.03:912][383]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.03:945][383]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.03:971][383]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.03:978][383]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.03:996][383]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.04:010][383]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.04:036][383]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.04:045][383]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.04:077][383]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.04:123][384]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.04:167][386]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.04:175][386]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.04:205][386]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.04:207][386]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.04:224][386]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.04:271][386]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.04:281][386]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.04:288][386]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.04:372][387]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.04:869][419]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.19.04:869][419]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.19.04:869][419]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.19.04:869][419]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.19.05:148][450]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.05:154][450]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.05:183][450]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.05:294][457]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.05:303][457]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.05:336][457]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.05:363][457]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.05:374][457]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.05:407][457]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.05:433][457]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.05:441][457]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.05:459][457]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.05:474][457]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.05:495][457]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.05:555][460]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.05:562][460]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.05:579][460]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.05:594][460]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.05:611][460]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.05:658][460]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.05:666][460]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.05:675][460]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.05:787][461]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.06:310][494]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.19.06:310][494]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.19.06:310][494]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.19.06:311][494]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.19.06:391][502]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.06:396][502]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.06:425][502]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.06:649][515]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.06:657][515]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.06:691][515]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.06:717][515]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.06:726][515]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.06:756][515]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.06:759][515]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.06:781][515]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.06:785][515]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.06:793][515]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.06:826][515]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.06:877][517]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.06:902][518]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.06:910][518]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.06:941][518]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.06:944][518]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.06:963][518]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.07:007][518]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.07:015][518]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.07:025][518]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.07:105][519]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.07:588][550]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.19.07:588][550]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.19.07:588][550]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.19.07:588][550]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.19.09:623][790]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.09:629][790]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.09:657][790]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.09:782][798]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.09:791][798]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.09:826][798]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.09:855][798]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.09:904][798]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.09:913][798]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.09:922][798]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.09:939][798]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.10:268][815]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.10:276][815]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.10:309][815]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.10:362][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.10:370][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.10:400][816]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.10:404][816]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.10:429][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.10:436][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.10:469][816]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.10:495][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.10:503][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.10:536][816]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.10:563][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.10:570][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.10:602][816]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.10:621][816]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.10:665][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.10:673][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.10:681][816]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.10:786][818]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.11:338][854]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.19.11:338][854]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.19.11:338][854]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.19.11:338][854]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.19.13:035][ 53]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.13:041][ 53]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.13:069][ 53]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.13:087][ 53]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.13:093][ 53]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.13:125][ 53]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.13:140][ 53]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.13:189][ 53]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.13:199][ 53]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.13:208][ 53]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.13:307][ 54]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.13:823][ 89]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.19.13:823][ 89]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.19.13:823][ 89]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.19.13:823][ 89]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.19.19:238][730]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.19:244][730]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.19:272][730]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.19:661][753]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.19:667][753]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.19:696][753]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.19:711][753]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.19:752][753]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.19:760][753]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.19:769][753]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.19:890][756]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.20:413][791]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.19.20:413][791]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.19.20:413][791]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.19.20:413][791]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.19.22:035][981]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.22:041][981]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.22:069][981]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.22:087][981]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.22:093][981]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.22:123][981]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.22:135][981]LogSlate: Window 'Color Picker' being destroyed
+[2019.06.27-22.19.22:343][992]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.22:946][ 28]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.19.22:946][ 28]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.19.22:946][ 28]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.19.22:946][ 28]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.19.24:204][167]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.24:210][167]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.24:238][167]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.24:391][176]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.24:399][176]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.24:435][176]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.24:463][176]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.24:470][176]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.24:488][176]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.24:503][176]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.24:529][176]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.24:537][176]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.24:555][176]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.24:570][176]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.24:625][178]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.24:787][188]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.24:795][188]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.24:828][188]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.24:851][188]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.25:099][203]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.25:110][203]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.25:143][203]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.25:169][203]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.25:178][203]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.25:210][203]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.25:235][203]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.25:244][203]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.25:274][203]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.25:276][203]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.25:335][205]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.25:865][240]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.19.25:865][240]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.19.25:865][240]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.19.25:865][240]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.19.26:162][274]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.26:168][274]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.26:196][274]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.26:208][274]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.26:252][274]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.26:258][274]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.26:266][274]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.26:418][278]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.26:930][309]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.19.26:930][309]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.19.26:930][309]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.19.26:930][309]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.19.28:950][547]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.28:956][547]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.28:984][547]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.29:046][550]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.29:054][550]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.29:087][550]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.29:112][550]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.29:158][550]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.29:166][550]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.29:176][550]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.29:256][551]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.29:760][584]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.19.29:760][584]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.19.29:760][584]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.19.29:760][584]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.19.31:195][752]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.31:201][752]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.31:229][752]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.31:275][753]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.31:283][753]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.31:314][753]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.31:339][753]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.31:348][753]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.31:381][753]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.31:415][753]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.31:423][753]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.31:457][753]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.31:473][753]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.31:476][753]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.31:519][753]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.31:526][753]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.31:534][753]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.31:599][754]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.31:962][773]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.31:969][773]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.32:001][773]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.32:027][773]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.32:039][773]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.32:074][773]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.32:098][773]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.32:107][773]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.32:139][773]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.32:157][773]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.32:182][773]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.32:210][773]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.32:219][773]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.32:228][773]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.32:296][774]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.32:481][784]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.32:490][784]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.32:525][784]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.32:550][784]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.32:558][784]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.32:591][784]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.32:608][784]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.32:626][784]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.32:654][784]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.32:663][784]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.32:677][784]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.32:783][786]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.33:297][821]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.19.33:297][821]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.19.33:297][821]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.19.33:297][821]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.19.34:398][949]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.34:404][949]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.34:432][949]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.34:472][950]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.34:479][950]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.34:512][950]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.34:528][950]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.34:576][950]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.34:585][950]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.34:594][950]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.34:678][951]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.35:197][986]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.19.35:197][986]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.19.35:197][986]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.19.35:197][986]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.19.38:906][420]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.38:912][420]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.38:940][420]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.38:958][420]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.38:964][420]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.38:994][420]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.39:008][420]LogSlate: Window 'Color Picker' being destroyed
+[2019.06.27-22.19.39:206][430]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.39:833][467]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.19.39:833][467]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.19.39:833][467]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.19.39:833][467]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.19.42:161][736]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.42:167][736]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.42:196][736]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.42:249][738]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.42:257][738]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.42:290][738]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.42:306][738]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.42:354][738]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.42:363][738]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.42:372][738]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.42:458][739]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.42:953][772]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.19.42:953][772]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.19.42:953][772]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.19.42:953][772]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.19.43:072][784]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.43:078][784]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.43:106][784]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.43:169][787]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.43:177][787]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.43:210][787]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.43:232][787]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.43:281][787]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.43:292][787]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.43:302][787]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.43:390][788]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.43:546][797]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.43:554][797]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.43:587][797]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.43:620][797]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.43:628][797]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.43:657][797]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.43:660][797]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.43:677][797]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.43:695][797]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.43:723][797]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.43:732][797]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.43:741][797]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.43:848][799]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.44:218][821]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.44:225][821]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.44:258][821]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.44:305][822]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.44:313][822]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.44:345][822]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.44:361][822]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.44:410][822]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.44:419][822]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.44:427][822]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.44:510][823]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.45:005][856]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.19.45:005][856]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.19.45:005][856]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.19.45:005][856]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.19.46:715][ 59]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.46:721][ 59]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.46:749][ 59]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.46:825][ 63]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.46:833][ 63]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.46:865][ 63]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.46:887][ 63]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.46:937][ 63]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.46:947][ 63]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.46:956][ 63]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.46:987][ 63]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.47:513][ 95]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.19.47:513][ 95]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.19.47:513][ 95]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.19.47:513][ 95]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.19.48:548][213]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.48:554][213]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.48:582][213]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.48:600][213]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.19.48:608][213]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.19.48:639][213]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.48:652][213]LogSlate: Window 'Color Picker' being destroyed
+[2019.06.27-22.19.48:841][223]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.19.49:427][257]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.19.49:427][257]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.19.49:427][257]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.19.49:427][257]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.19.51:528][475]LogMaterialEditor: Saving and Compiling material PP_Cel
+[2019.06.27-22.19.51:928][475]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.51:957][475]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.51:967][475]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.19.52:006][475]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2019.06.27-22.19.52:006][475]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2019.06.27-22.19.52:038][475]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2019.06.27-22.19.53:196][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/PP/PP_Cel" FILE="C:/Users/orion/Desktop/Code/Labarynth/Project/Content/FirstPersonBP/PP/PP_Cel.uasset" SILENT=true
+[2019.06.27-22.19.53:223][475]LogSavePackage: Moving 'C:/Users/orion/Desktop/Code/Labarynth/Project/Saved/PP_Cel3398C1FC4BAF58B5A14C7492D9327E30.tmp' to 'C:/Users/orion/Desktop/Code/Labarynth/Project/Content/FirstPersonBP/PP/PP_Cel.uasset'
+[2019.06.27-22.19.54:149][580]LogSlate: Window 'PP_Cel' being destroyed
+[2019.06.27-22.19.54:152][580]LogSlate: Window 'PP_Cel' being destroyed
+[2019.06.27-22.23.08:097][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.27-22.23.08:148][ 83]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.27-22.23.08:159][ 83]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.27-22.23.08:159][ 83]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.27-22.23.08:159][ 83]PIE: New page: PIE session: FirstPersonExampleMap (Jun 27, 2019, 8:23:08 AM)
+[2019.06.27-22.23.08:159][ 83]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.06.27-22.23.08:170][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010402s)
+[2019.06.27-22.23.08:170][ 83]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.06.27-22.23.08:170][ 83]LogPlayLevel: PIE: World Init took: (0.000511s)
+[2019.06.27-22.23.08:170][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011046s)
+[2019.06.27-22.23.08:202][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2019.06.27-22.23.08:237][ 83]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.27-22.23.08:248][ 83]LogInit: FAudioDevice initialized.
+[2019.06.27-22.23.08:276][ 83]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.06.27-22.23.08:279][ 83]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.06.27-15.23.08
+[2019.06.27-22.23.08:279][ 83]LogWorld: Bringing up level for play took: 0.002690
+[2019.06.27-22.23.08:292][ 83]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.782
+[2019.06.27-22.23.08:292][ 83]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.27-22.23.13:746][734]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.27-22.23.13:746][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.27-22.23.13:778][734]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.27-22.23.13:778][734]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.27-22.23.13:812][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.27-22.23.13:814][734]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2019.06.27-22.23.13:855][736]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2019.06.27-22.23.16:279][993]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.27-22.23.16:421][  6]LogAssetEditorManager: Opening Asset editor for Material /Game/FirstPersonBP/PP/PP_Cel.PP_Cel
+[2019.06.27-22.23.16:424][  6]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.06.27-22.23.16:493][  6]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.06.27-22.23.16:501][  6]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.06.27-22.23.16:538][  6]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.23.16:544][  6]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.23.17:231][ 41]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.23.17:231][ 41]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.23.17:231][ 41]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.23.17:231][ 41]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.23.20:335][407]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.23.20:341][407]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.23.20:369][407]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.06.27-22.23.20:387][407]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.23.20:394][407]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.23.20:423][407]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.06.27-22.23.20:440][407]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.06.27-22.23.20:487][407]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.23.20:495][407]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.23.20:505][407]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.06.27-22.23.20:618][409]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.23.21:150][449]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.23.21:150][449]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.23.21:150][449]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.23.21:150][449]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.23.21:317][468]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.23.21:323][468]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.23.21:351][468]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.06.27-22.23.21:369][468]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.23.21:376][468]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.23.21:405][468]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.06.27-22.23.21:418][468]LogSlate: Window 'Color Picker' being destroyed
+[2019.06.27-22.23.21:629][481]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.23.22:215][522]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.23.22:215][522]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.23.22:215][522]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.23.22:215][522]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.23.23:061][621]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.23.23:067][621]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.23.23:096][621]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.06.27-22.23.23:129][622]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.23.23:136][622]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.23.23:168][622]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.06.27-22.23.23:185][622]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.06.27-22.23.23:232][622]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.23.23:240][622]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.23.23:249][622]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.06.27-22.23.23:377][626]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.23.23:546][640]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.23.23:556][640]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.23.23:590][640]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.06.27-22.23.23:615][640]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.23.23:623][640]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.23.23:653][640]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.23.23:656][640]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.06.27-22.23.23:677][640]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.06.27-22.23.23:726][640]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.23.23:734][640]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.23.23:742][640]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.06.27-22.23.23:813][641]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.23.24:322][681]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.23.24:322][681]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.23.24:322][681]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.23.24:323][681]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.23.24:751][731]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.23.24:757][731]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.23.24:785][731]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.06.27-22.23.24:803][731]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.06.27-22.23.24:810][731]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.06.27-22.23.24:841][731]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.06.27-22.23.24:853][731]LogSlate: Window 'Color Picker' being destroyed
+[2019.06.27-22.23.25:064][745]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.27-22.23.25:760][796]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2019.06.27-22.23.25:760][796]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.06.27-22.23.25:760][796]MaterialEditorStats: Texture samplers: 4/16
+[2019.06.27-22.23.25:760][796]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2019.06.27-22.23.26:691][906]LogMaterialEditor: Saving and Compiling material PP_Cel
+[2019.06.27-22.23.27:085][906]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.06.27-22.23.27:114][906]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.23.27:123][906]LogMaterial: Display: Missing cached shader map for material PP_Cel, compiling. 
+[2019.06.27-22.23.27:161][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2019.06.27-22.23.27:161][906]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2019.06.27-22.23.27:193][906]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2019.06.27-22.23.28:325][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/PP/PP_Cel" FILE="C:/Users/orion/Desktop/Code/Labarynth/Project/Content/FirstPersonBP/PP/PP_Cel.uasset" SILENT=true
+[2019.06.27-22.23.28:348][906]LogSavePackage: Moving 'C:/Users/orion/Desktop/Code/Labarynth/Project/Saved/PP_Cel128E98BC43B85CE6EDBC83995D23217D.tmp' to 'C:/Users/orion/Desktop/Code/Labarynth/Project/Content/FirstPersonBP/PP/PP_Cel.uasset'
+[2019.06.27-22.23.29:409][ 29]LogSlate: Window 'PP_Cel' being destroyed
+[2019.06.27-22.23.29:412][ 29]LogSlate: Window 'PP_Cel' being destroyed
+[2019.06.27-22.23.31:491][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.27-22.23.31:574][272]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.27-22.23.31:586][272]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.27-22.23.31:586][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.27-22.23.31:586][272]PIE: New page: PIE session: FirstPersonExampleMap (Jun 27, 2019, 8:23:31 AM)
+[2019.06.27-22.23.31:586][272]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.06.27-22.23.31:596][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010061s)
+[2019.06.27-22.23.31:597][272]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.06.27-22.23.31:597][272]LogPlayLevel: PIE: World Init took: (0.000521s)
+[2019.06.27-22.23.31:597][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.010729s)
+[2019.06.27-22.23.31:636][272]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2019.06.27-22.23.31:671][272]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.27-22.23.31:682][272]LogInit: FAudioDevice initialized.
+[2019.06.27-22.23.31:712][272]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.06.27-22.23.31:715][272]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.06.27-15.23.31
+[2019.06.27-22.23.31:715][272]LogWorld: Bringing up level for play took: 0.002636
+[2019.06.27-22.23.31:728][272]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.654
+[2019.06.27-22.23.31:728][272]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.27-22.24.26:003][779]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.27-22.24.26:004][779]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.27-22.24.26:031][779]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.27-22.24.26:031][779]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.27-22.24.26:064][779]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.27-22.24.26:067][779]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2019.06.27-22.24.26:107][781]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2019.06.27-22.24.28:690][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.27-22.24.28:831][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2019.06.27-22.24.29:011][ 79]LogSavePackage: Moving 'C:/Users/orion/Desktop/Code/Labarynth/Project/Saved/FirstPersonExampleMap3A29696248042342BFE4AAA545756FB8.tmp' to 'C:/Users/orion/Desktop/Code/Labarynth/Project/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.06.27-22.24.29:684][ 79]LogSavePackage: Moving 'C:/Users/orion/Desktop/Code/Labarynth/Project/Saved/FirstPersonExampleMap_BuiltDataF5F4BC6B4EF0CFE0E4F280A111A7AFC5.tmp' to 'C:/Users/orion/Desktop/Code/Labarynth/Project/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.06.27-22.24.31:900][329]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.27-22.24.32:025][339]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2019.06.27-22.24.32:206][339]LogSavePackage: Moving 'C:/Users/orion/Desktop/Code/Labarynth/Project/Saved/FirstPersonExampleMap50D1360B4B784F69E6182A888CC58EA7.tmp' to 'C:/Users/orion/Desktop/Code/Labarynth/Project/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.06.27-22.24.32:908][339]LogSavePackage: Moving 'C:/Users/orion/Desktop/Code/Labarynth/Project/Saved/FirstPersonExampleMap_BuiltDataB27BD68F4E853C2DA9D029B1A3B94B1C.tmp' to 'C:/Users/orion/Desktop/Code/Labarynth/Project/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
