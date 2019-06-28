@@ -6393,3 +6393,2236 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.06.27-23.57.42:753][459]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
 [2019.06.27-23.57.42:943][459]LogSavePackage: Moving 'C:/Users/orion/Desktop/Code/Labarynth/Project/Saved/FirstPersonExampleMap225ED045409C7E8FBE4EAAB4DC3A0D75.tmp' to 'C:/Users/orion/Desktop/Code/Labarynth/Project/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
 [2019.06.27-23.57.43:624][459]LogSavePackage: Moving 'C:/Users/orion/Desktop/Code/Labarynth/Project/Saved/FirstPersonExampleMap_BuiltData9305684F46463CD085CCD5893909EFBE.tmp' to 'C:/Users/orion/Desktop/Code/Labarynth/Project/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.06.27-23.59.34:826][542]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.28-00.02.03:563][541]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Attack00.fbx)
+[2019.06.28-00.02.03:654][541]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Attack00.fbx
+[2019.06.28-00.02.03:818][541]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.02.03:830][541]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.28-00.02.24:731][541]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.02.25:296][541]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.02.25:297][541]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.02.25:297][541]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.02.25:297][541]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.02.25:297][541]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.02.25:297][541]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.02.25:297][541]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.02.25:297][541]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.02.25:297][541]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.02.25:297][541]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.02.25:297][541]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.02.25:297][541]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.02.25:297][541]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.02.25:297][541]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.02.25:297][541]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.02.25:297][541]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.02.25:302][541]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.02.25:304][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Attack00'
+[2019.06.28-00.02.25:304][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Attack00'
+[2019.06.28-00.02.26:067][541]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Attack00.SkeletonOutlaw_Attack00
+[2019.06.28-00.02.26:068][541]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Attack00) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.02.26:108][541]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Attack01.fbx)
+[2019.06.28-00.02.26:193][541]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Attack01.fbx
+[2019.06.28-00.02.26:347][541]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.02.26:363][541]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.02.26:364][541]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.02.26:364][541]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.02.26:364][541]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.02.26:364][541]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.02.26:364][541]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.02.26:364][541]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.02.26:364][541]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.02.26:368][541]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.02.26:370][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Attack01'
+[2019.06.28-00.02.26:370][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Attack01'
+[2019.06.28-00.02.27:119][541]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Attack01.SkeletonOutlaw_Attack01
+[2019.06.28-00.02.27:120][541]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Attack01) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.02.27:146][541]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Attack02.fbx)
+[2019.06.28-00.02.27:234][541]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Attack02.fbx
+[2019.06.28-00.02.27:396][541]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.02.27:412][541]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.02.27:413][541]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.02.27:417][541]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.02.27:419][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Attack02'
+[2019.06.28-00.02.27:419][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Attack02'
+[2019.06.28-00.02.28:169][541]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Attack02.SkeletonOutlaw_Attack02
+[2019.06.28-00.02.28:170][541]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Attack02) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.02.28:197][541]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Damage00.fbx)
+[2019.06.28-00.02.28:285][541]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Damage00.fbx
+[2019.06.28-00.02.28:441][541]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.02.28:457][541]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.02.28:458][541]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.02.28:462][541]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.02.28:464][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Damage00'
+[2019.06.28-00.02.28:464][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Damage00'
+[2019.06.28-00.02.29:212][541]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Damage00.SkeletonOutlaw_Damage00
+[2019.06.28-00.02.29:213][541]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Damage00) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.02.29:243][541]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Damage01.fbx)
+[2019.06.28-00.02.29:324][541]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Damage01.fbx
+[2019.06.28-00.02.29:473][541]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.02.29:488][541]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.02.29:489][541]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.02.29:489][541]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.02.29:489][541]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.02.29:489][541]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.02.29:494][541]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.02.29:495][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Damage01'
+[2019.06.28-00.02.29:495][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Damage01'
+[2019.06.28-00.02.30:241][541]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Damage01.SkeletonOutlaw_Damage01
+[2019.06.28-00.02.30:242][541]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Damage01) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.02.30:268][541]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Dead00.fbx)
+[2019.06.28-00.02.30:356][541]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Dead00.fbx
+[2019.06.28-00.02.30:515][541]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.02.30:532][541]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.02.30:533][541]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.02.30:533][541]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.02.30:533][541]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.02.30:533][541]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.02.30:533][541]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.02.30:533][541]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.02.30:533][541]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.02.30:533][541]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.02.30:538][541]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.02.30:540][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Dead00'
+[2019.06.28-00.02.30:540][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Dead00'
+[2019.06.28-00.02.31:288][541]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Dead00.SkeletonOutlaw_Dead00
+[2019.06.28-00.02.31:289][541]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Dead00) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.02.31:320][541]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Dead01.fbx)
+[2019.06.28-00.02.31:400][541]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Dead01.fbx
+[2019.06.28-00.02.31:546][541]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.02.31:562][541]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.02.31:563][541]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.02.31:563][541]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.02.31:563][541]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.02.31:563][541]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.02.31:563][541]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.02.31:563][541]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.02.31:563][541]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.02.31:568][541]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.02.31:570][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Dead01'
+[2019.06.28-00.02.31:570][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Dead01'
+[2019.06.28-00.02.32:316][541]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Dead01.SkeletonOutlaw_Dead01
+[2019.06.28-00.02.32:317][541]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Dead01) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.02.32:348][541]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Idle00.fbx)
+[2019.06.28-00.02.32:431][541]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Idle00.fbx
+[2019.06.28-00.02.32:582][541]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.02.32:598][541]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.02.32:598][541]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.02.32:598][541]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.02.32:598][541]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.02.32:598][541]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.02.32:598][541]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.02.32:598][541]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.02.32:598][541]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.02.32:598][541]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.02.32:598][541]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.02.32:598][541]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.02.32:598][541]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.02.32:598][541]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.02.32:598][541]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.02.32:598][541]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.02.32:598][541]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.02.32:598][541]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.02.32:598][541]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.02.32:599][541]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.02.32:604][541]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.02.32:606][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Idle00'
+[2019.06.28-00.02.32:606][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Idle00'
+[2019.06.28-00.02.33:359][541]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Idle00.SkeletonOutlaw_Idle00
+[2019.06.28-00.02.33:360][541]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Idle00) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.02.33:386][541]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Idle01.fbx)
+[2019.06.28-00.02.33:470][541]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Idle01.fbx
+[2019.06.28-00.02.33:625][541]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.02.33:642][541]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.02.33:647][541]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.02.33:649][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Idle01'
+[2019.06.28-00.02.33:649][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Idle01'
+[2019.06.28-00.02.34:397][541]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Idle01.SkeletonOutlaw_Idle01
+[2019.06.28-00.02.34:398][541]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Idle01) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.02.34:428][541]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Idle02.fbx)
+[2019.06.28-00.02.34:513][541]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Idle02.fbx
+[2019.06.28-00.02.34:669][541]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.02.34:686][541]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.02.34:691][541]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.02.34:693][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Idle02'
+[2019.06.28-00.02.34:693][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Idle02'
+[2019.06.28-00.02.35:437][541]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Idle02.SkeletonOutlaw_Idle02
+[2019.06.28-00.02.35:438][541]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Idle02) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.02.35:464][541]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Jump00 [NoRootMotion].fbx)
+[2019.06.28-00.02.35:550][541]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Jump00 [NoRootMotion].fbx
+[2019.06.28-00.02.35:709][541]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.02.35:725][541]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.02.35:726][541]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.02.35:726][541]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.02.35:726][541]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.02.35:726][541]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.02.35:726][541]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.02.35:726][541]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.02.35:726][541]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.02.35:726][541]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.02.35:726][541]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.02.35:726][541]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.02.35:726][541]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.02.35:726][541]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.02.35:726][541]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.02.35:726][541]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.02.35:726][541]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.02.35:726][541]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.02.35:726][541]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.02.35:730][541]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.02.35:732][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Jump00__NoRootMotion_'
+[2019.06.28-00.02.35:732][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Jump00__NoRootMotion_'
+[2019.06.28-00.02.36:493][541]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Jump00__NoRootMotion_.SkeletonOutlaw_Jump00__NoRootMotion_
+[2019.06.28-00.02.36:494][541]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Jump00__NoRootMotion_) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.02.36:522][541]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Jump00.fbx)
+[2019.06.28-00.02.36:609][541]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Jump00.fbx
+[2019.06.28-00.02.36:769][541]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.02.36:785][541]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.02.36:786][541]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.02.36:786][541]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.02.36:786][541]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.02.36:786][541]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.02.36:786][541]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.02.36:786][541]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.02.36:786][541]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.02.36:786][541]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.02.36:790][541]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.02.36:792][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Jump00'
+[2019.06.28-00.02.36:792][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Jump00'
+[2019.06.28-00.02.37:547][541]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Jump00.SkeletonOutlaw_Jump00
+[2019.06.28-00.02.37:548][541]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Jump00) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.02.37:576][541]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Run00.fbx)
+[2019.06.28-00.02.37:668][541]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Run00.fbx
+[2019.06.28-00.02.37:837][541]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.02.37:852][541]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.02.37:852][541]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.02.37:852][541]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.02.37:852][541]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.02.37:852][541]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.02.37:852][541]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.02.37:852][541]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.02.37:852][541]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.02.37:852][541]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.02.37:852][541]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.02.37:852][541]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.02.37:852][541]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.02.37:852][541]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.02.37:852][541]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.02.37:852][541]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.02.37:852][541]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.02.37:853][541]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.02.37:858][541]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.02.37:860][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Run00'
+[2019.06.28-00.02.37:860][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Run00'
+[2019.06.28-00.02.38:612][541]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Run00.SkeletonOutlaw_Run00
+[2019.06.28-00.02.38:613][541]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Run00) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.02.38:644][541]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Walk00.fbx)
+[2019.06.28-00.02.38:735][541]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Walk00.fbx
+[2019.06.28-00.02.38:900][541]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.02.38:915][541]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.02.38:916][541]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.02.38:920][541]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.02.38:922][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Walk00'
+[2019.06.28-00.02.38:922][541]LogLinker: Can't find file '/Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Walk00'
+[2019.06.28-00.02.39:681][541]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Walk00.SkeletonOutlaw_Walk00
+[2019.06.28-00.02.39:681][541]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Walk00) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.02.42:676][813]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.28-00.02.43:525][878]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Attack00.SkeletonOutlaw_Attack00
+[2019.06.28-00.02.43:532][878]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_40:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.06.28-00.02.43:548][878]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_40:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.06.28-00.02.44:230][878]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.06.28-00.03.17:220][741]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw.SkeletonOutlaw
+[2019.06.28-00.03.17:226][741]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.06.28-00.03.17:249][741]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.06.28-00.03.18:417][829]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (38.637 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.28-00.03.29:798][733]LogSkeletalMesh: Building Skeletal Mesh SkeletonOutlaw...
+[2019.06.28-00.03.29:805][733]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw.SkeletonOutlaw
+[2019.06.28-00.03.31:363][875]LogSkeletalMesh: Building Skeletal Mesh SkeletonOutlaw...
+[2019.06.28-00.03.31:370][875]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw.SkeletonOutlaw
+[2019.06.28-00.03.44:605][244]Cmd: TRANSACTION UNDO
+[2019.06.28-00.03.44:605][244]LogEditorTransaction: Undo Rotate Bone
+[2019.06.28-00.03.44:680][244]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.06.28-00.03.48:067][542]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.28-00.03.59:159][604]LogAssetEditorManager: Opening Asset editor for PhysicsAsset /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_PhysicsAsset.SkeletonOutlaw_PhysicsAsset
+[2019.06.28-00.03.59:612][604]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0006 seconds. Added 7 classes and 3 folders.
+[2019.06.28-00.03.59:619][604]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_44:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2019.06.28-00.04.11:565][675]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.28-00.04.25:065][844]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.28-00.04.25:138][851]LogSlate: Window 'SkeletonOutlaw_PhysicsAsset' being destroyed
+[2019.06.28-00.04.25:142][851]LogSlate: Window 'SkeletonOutlaw_PhysicsAsset' being destroyed
+[2019.06.28-00.05.20:657][756]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2019.06.28-00.05.24:294][756]LogSlate: Window 'Delete Assets' being destroyed
+[2019.06.28-00.05.24:297][756]LogUObjectGlobals: Force Deleting 14 Package(s):
+	Asset Name: /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Attack00.SkeletonOutlaw_Attack00
+	Asset Name: /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Attack01.SkeletonOutlaw_Attack01
+	Asset Name: /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Attack02.SkeletonOutlaw_Attack02
+	Asset Name: /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Damage00.SkeletonOutlaw_Damage00
+	Asset Name: /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Damage01.SkeletonOutlaw_Damage01
+	Asset Name: /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Dead00.SkeletonOutlaw_Dead00
+	Asset Name: /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Dead01.SkeletonOutlaw_Dead01
+	Asset Name: /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Idle00.SkeletonOutlaw_Idle00
+	Asset Name: /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Idle01.SkeletonOutlaw_Idle01
+	Asset Name: /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Idle02.SkeletonOutlaw_Idle02
+[2019.06.28-00.05.25:908][756]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2019.06.28-00.05.35:506][476]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Attack00.fbx)
+[2019.06.28-00.05.35:592][476]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Attack00.fbx
+[2019.06.28-00.05.35:758][476]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.05.48:771][476]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.05.48:803][476]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.05.48:804][476]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.05.48:809][476]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.05.49:569][476]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Attack00.SkeletonOutlaw_Attack00
+[2019.06.28-00.05.49:570][476]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Attack00) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.05.49:589][476]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Attack01.fbx)
+[2019.06.28-00.05.49:671][476]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Attack01.fbx
+[2019.06.28-00.05.49:823][476]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.05.51:769][476]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.06.28-00.05.51:800][476]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.05.51:801][476]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.05.51:806][476]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.05.52:564][476]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Attack01.SkeletonOutlaw_Attack01
+[2019.06.28-00.05.52:565][476]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Attack01) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.05.52:583][476]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Attack02.fbx)
+[2019.06.28-00.05.52:671][476]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Attack02.fbx
+[2019.06.28-00.05.52:836][476]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.05.52:852][476]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.05.52:853][476]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.05.52:858][476]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.05.53:606][476]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Attack02.SkeletonOutlaw_Attack02
+[2019.06.28-00.05.53:606][476]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Attack02) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.05.53:625][476]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Damage00.fbx)
+[2019.06.28-00.05.53:710][476]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Damage00.fbx
+[2019.06.28-00.05.53:865][476]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.05.53:881][476]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.05.53:886][476]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.05.54:642][476]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Damage00.SkeletonOutlaw_Damage00
+[2019.06.28-00.05.54:642][476]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Damage00) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.05.54:661][476]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Damage01.fbx)
+[2019.06.28-00.05.54:742][476]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Damage01.fbx
+[2019.06.28-00.05.54:890][476]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.05.54:905][476]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.05.54:906][476]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.05.54:906][476]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.05.54:906][476]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.05.54:906][476]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.05.54:906][476]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.05.54:906][476]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.05.54:906][476]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.05.54:906][476]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.05.54:906][476]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.05.54:906][476]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.05.54:906][476]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.05.54:906][476]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.05.54:906][476]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.05.54:906][476]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.05.54:906][476]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.05.54:906][476]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.05.54:906][476]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.05.54:906][476]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.05.54:906][476]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.05.54:910][476]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.05.55:664][476]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Damage01.SkeletonOutlaw_Damage01
+[2019.06.28-00.05.55:664][476]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Damage01) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.05.55:682][476]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Dead00.fbx)
+[2019.06.28-00.05.55:769][476]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Dead00.fbx
+[2019.06.28-00.05.55:932][476]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.05.55:949][476]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.05.55:949][476]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.05.55:949][476]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.05.55:949][476]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.05.55:949][476]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.05.55:950][476]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.05.55:956][476]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.05.56:702][476]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Dead00.SkeletonOutlaw_Dead00
+[2019.06.28-00.05.56:702][476]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Dead00) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.05.56:722][476]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Dead01.fbx)
+[2019.06.28-00.05.56:803][476]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Dead01.fbx
+[2019.06.28-00.05.56:950][476]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.05.56:967][476]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.05.56:973][476]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.05.57:729][476]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Dead01.SkeletonOutlaw_Dead01
+[2019.06.28-00.05.57:730][476]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Dead01) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.05.57:749][476]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Idle00.fbx)
+[2019.06.28-00.05.57:833][476]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Idle00.fbx
+[2019.06.28-00.05.57:983][476]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.05.58:000][476]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.05.58:001][476]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.05.58:001][476]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.05.58:001][476]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.05.58:005][476]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.05.58:762][476]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Idle00.SkeletonOutlaw_Idle00
+[2019.06.28-00.05.58:762][476]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Idle00) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.05.58:780][476]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Idle01.fbx)
+[2019.06.28-00.05.58:865][476]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Idle01.fbx
+[2019.06.28-00.05.59:020][476]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.05.59:036][476]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.05.59:041][476]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.05.59:799][476]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Idle01.SkeletonOutlaw_Idle01
+[2019.06.28-00.05.59:799][476]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Idle01) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.05.59:818][476]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Idle02.fbx)
+[2019.06.28-00.05.59:905][476]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Idle02.fbx
+[2019.06.28-00.06.00:061][476]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.06.00:077][476]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.06.00:078][476]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.06.00:083][476]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.06.00:844][476]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Idle02.SkeletonOutlaw_Idle02
+[2019.06.28-00.06.00:845][476]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Idle02) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.06.00:864][476]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Jump00 [NoRootMotion].fbx)
+[2019.06.28-00.06.00:950][476]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Jump00 [NoRootMotion].fbx
+[2019.06.28-00.06.01:106][476]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.06.01:121][476]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.06.01:121][476]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.06.01:121][476]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.06.01:122][476]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.06.01:127][476]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.06.01:882][476]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Jump00__NoRootMotion_.SkeletonOutlaw_Jump00__NoRootMotion_
+[2019.06.28-00.06.01:882][476]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Jump00__NoRootMotion_) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.06.01:902][476]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Jump00.fbx)
+[2019.06.28-00.06.01:987][476]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Jump00.fbx
+[2019.06.28-00.06.02:144][476]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.06.02:159][476]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.06.02:159][476]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.06.02:159][476]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.06.02:159][476]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.06.02:159][476]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.06.02:159][476]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.06.02:159][476]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.06.02:159][476]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.06.02:159][476]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.06.02:159][476]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.06.02:159][476]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.06.02:159][476]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.06.02:159][476]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.06.02:159][476]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.06.02:159][476]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.06.02:159][476]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.06.02:159][476]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.06.02:159][476]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.06.02:159][476]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.06.02:160][476]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.06.02:165][476]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.06.02:919][476]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Jump00.SkeletonOutlaw_Jump00
+[2019.06.28-00.06.02:919][476]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Jump00) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.06.02:938][476]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Run00.fbx)
+[2019.06.28-00.06.03:031][476]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Run00.fbx
+[2019.06.28-00.06.03:197][476]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.06.03:213][476]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.06.03:214][476]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.06.03:218][476]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.06.03:975][476]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Run00.SkeletonOutlaw_Run00
+[2019.06.28-00.06.03:975][476]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Run00) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.06.03:994][476]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Walk00.fbx)
+[2019.06.28-00.06.04:084][476]LogFbx: Loading FBX Scene from C:\Users\orion\Desktop\LPMODELS\SkeletonOutlaw\SkeletonOutlaw\Animations\SkeletonOutlaw@Walk00.fbx
+[2019.06.28-00.06.04:248][476]LogFbx: FBX Scene Loaded Succesfully
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(0) SkeletonOutlaw-Rig
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(1) root
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(2) ORG-hips
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(3) ORG-spine
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(4) ORG-chest
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(5) ORG-neck
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(6) ORG-head
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(7) ORG-jaw
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(8) ORG-shoulder_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(9) ORG-upper_arm_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(10) ORG-forearm_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(11) ORG-hand_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(12) ORG-palm_01_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(13) ORG-f_index_01_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(14) ORG-f_index_02_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(15) ORG-f_index_03_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(16) ORG-thumb_01_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(17) ORG-thumb_02_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(18) ORG-thumb_03_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(19) ORG-palm_02_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(20) ORG-f_middle_01_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(21) ORG-f_middle_02_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(22) ORG-f_middle_03_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(23) ORG-palm_03_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(24) ORG-f_ring_01_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(25) ORG-f_ring_02_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(26) ORG-f_ring_03_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(27) ORG-palm_04_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(28) ORG-f_pinky_01_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(29) ORG-f_pinky_02_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(30) ORG-f_pinky_03_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(31) prop_L
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(32) ORG-shoulder_R
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(33) ORG-upper_arm_R
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(34) ORG-forearm_R
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(35) ORG-hand_R
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(36) ORG-palm_01_R
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(37) ORG-f_index_01_R
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(38) ORG-f_index_02_R
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(39) ORG-f_index_03_R
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(40) ORG-thumb_01_R
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(41) ORG-thumb_02_R
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(42) ORG-thumb_03_R
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(43) ORG-palm_02_R
+[2019.06.28-00.06.04:263][476]LogFbx: SortedLinks :(44) ORG-f_middle_01_R
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(45) ORG-f_middle_02_R
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(46) ORG-f_middle_03_R
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(47) ORG-palm_03_R
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(48) ORG-f_ring_01_R
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(49) ORG-f_ring_02_R
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(50) ORG-f_ring_03_R
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(51) ORG-palm_04_R
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(52) ORG-f_pinky_01_R
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(53) ORG-f_pinky_02_R
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(54) ORG-f_pinky_03_R
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(55) prop_R
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(56) ORG-thigh_L
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(57) ORG-shin_L
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(58) ORG-foot_L
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(59) ORG-toe_L
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(60) ORG-heel_L
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(61) ORG-thigh_R
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(62) ORG-shin_R
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(63) ORG-foot_R
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(64) ORG-toe_R
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(65) ORG-heel_R
+[2019.06.28-00.06.04:264][476]LogFbx: SortedLinks :(66) ORG-sheath
+[2019.06.28-00.06.04:268][476]LogFbx: Parsing AnimStack Default Take
+[2019.06.28-00.06.05:012][476]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Walk00.SkeletonOutlaw_Walk00
+[2019.06.28-00.06.05:013][476]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.SkeletonOutlaw_Walk00) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.28-00.06.08:833][888]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw.SkeletonOutlaw
+[2019.06.28-00.06.08:839][888]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.06.28-00.06.08:866][888]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_45:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.06.28-00.06.21:431][109]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.28-00.06.35:543][523]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.28-00.06.39:895][940]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.28-00.06.43:887][313]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.28-00.06.46:866][580]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.28-00.06.49:397][798]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.28-00.06.53:649][190]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.28-00.06.57:631][537]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.28-00.07.05:905][331]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.28-00.07.25:980][263]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.28-00.07.30:474][695]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.28-00.07.32:995][914]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.28-00.07.38:542][454]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.28-00.07.43:236][839]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.28-00.07.45:126][995]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.28-00.07.47:603][206]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.28-00.07.51:630][581]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.28-00.08.02:373][628]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.28-00.08.02:476][639]LogSlate: Window 'SkeletonOutlaw' being destroyed
+[2019.06.28-00.08.02:480][639]LogSlate: Window 'SkeletonOutlaw' being destroyed
+[2019.06.28-00.08.06:683][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2019.06.28-00.08.09:672][ 81]LogSlate: Window 'Delete Assets' being destroyed
+[2019.06.28-00.08.09:675][ 81]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/FirstPersonBP/Models/Skeleton/SkeletonOutlaw_Anim.SkeletonOutlaw_Anim
+[2019.06.28-00.08.09:931][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2019.06.28-00.08.12:853][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2019.06.28-00.08.13:506][434]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SkeletonOutlaw)
+[2019.06.28-00.08.22:118][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.28-00.08.35:403][935]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.28-00.08.35:470][943]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.28-00.08.35:482][943]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.28-00.08.35:482][943]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.28-00.08.35:482][943]PIE: New page: PIE session: FirstPersonExampleMap (Jun 27, 2019, 10:08:35 AM)
+[2019.06.28-00.08.35:482][943]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.06.28-00.08.35:495][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012526s)
+[2019.06.28-00.08.35:495][943]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.06.28-00.08.35:495][943]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2019.06.28-00.08.35:495][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013172s)
+[2019.06.28-00.08.35:536][943]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2019.06.28-00.08.35:572][943]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.28-00.08.35:584][943]LogInit: FAudioDevice initialized.
+[2019.06.28-00.08.35:610][943]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.06.28-00.08.35:613][943]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.06.27-17.08.35
+[2019.06.28-00.08.35:613][943]LogWorld: Bringing up level for play took: 0.002934
+[2019.06.28-00.08.35:626][943]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.552
+[2019.06.28-00.08.35:626][943]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.28-00.08.40:884][506]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=-105.70 Y=55.66 Z=0.00 Location: X=-10.01 Y=-444.01 Z=266.57 Normal: X=-0.55 Y=0.36 Z=-0.75 PenetrationDepth:10.939 Actor:SkeletonOutlaw_2 Component:SkeletalMeshComponent0 BoneName:prop_R (0 other events since notify)
+[2019.06.28-00.08.41:984][638]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=-34.06 Y=2.25 Z=0.00 Location: X=62.05 Y=-481.90 Z=267.11 Normal: X=-0.37 Y=0.18 Z=-0.91 PenetrationDepth:19.703 Actor:SkeletonOutlaw_2 Component:SkeletalMeshComponent0 BoneName:prop_R (21 other events since notify)
+[2019.06.28-00.08.44:317][918]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=176.03 Y=-573.60 Z=0.00 Location: X=-86.73 Y=-461.67 Z=266.53 Normal: X=-0.78 Y=-0.12 Z=-0.61 PenetrationDepth:14.240 Actor:SkeletonOutlaw_2 Component:SkeletalMeshComponent0 BoneName:prop_R (9 other events since notify)
+[2019.06.28-00.08.47:150][258]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=1.84 Y=68.24 Z=0.00 Location: X=-20.17 Y=-450.11 Z=266.31 Normal: X=0.12 Y=0.41 Z=-0.90 PenetrationDepth:3.627 Actor:SkeletonOutlaw_2 Component:SkeletalMeshComponent0 BoneName:ORG-shoulder_L (16 other events since notify)
+[2019.06.28-00.08.54:033][ 84]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=-426.56 Y=-392.58 Z=0.00 Location: X=22.54 Y=-367.84 Z=266.26 Normal: X=0.32 Y=0.89 Z=-0.33 PenetrationDepth:17.459 Actor:SkeletonOutlaw_2 Component:SkeletalMeshComponent0 BoneName:prop_R (16 other events since notify)
+[2019.06.28-00.09.11:143][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.28-00.09.11:143][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.28-00.09.11:169][134]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.28-00.09.11:169][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.28-00.09.11:203][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.28-00.09.11:205][134]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2019.06.28-00.09.11:246][136]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2019.06.28-00.09.14:554][533]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SkeletonOutlaw)
+[2019.06.28-00.09.19:415][109]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.28-00.09.39:454][502]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.28-00.09.39:466][502]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.28-00.09.39:466][502]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.28-00.09.39:466][502]PIE: New page: PIE session: FirstPersonExampleMap (Jun 27, 2019, 10:09:39 AM)
+[2019.06.28-00.09.39:466][502]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.06.28-00.09.39:477][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010884s)
+[2019.06.28-00.09.39:477][502]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.06.28-00.09.39:477][502]LogPlayLevel: PIE: World Init took: (0.000506s)
+[2019.06.28-00.09.39:477][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011528s)
+[2019.06.28-00.09.39:507][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2019.06.28-00.09.39:542][502]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.28-00.09.39:553][502]LogInit: FAudioDevice initialized.
+[2019.06.28-00.09.39:584][502]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.06.28-00.09.39:587][502]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.06.27-17.09.39
+[2019.06.28-00.09.39:587][502]LogWorld: Bringing up level for play took: 0.002911
+[2019.06.28-00.09.39:600][502]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.526
+[2019.06.28-00.09.39:600][502]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.28-00.09.45:505][158]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=32.115 Y=-237.366 Z=251.516] for [FirstPersonProjectile_C]
+[2019.06.28-00.10.01:522][ 80]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.28-00.10.01:522][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.28-00.10.01:554][ 80]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.28-00.10.01:555][ 80]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.28-00.10.01:585][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.28-00.10.01:588][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2019.06.28-00.10.01:629][ 82]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2019.06.28-00.10.06:884][620]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SkeletonOutlaw)
+[2019.06.28-00.10.10:497][ 44]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.28-00.10.25:963][894]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.28-00.10.25:976][894]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.28-00.10.25:976][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.28-00.10.25:976][894]PIE: New page: PIE session: FirstPersonExampleMap (Jun 27, 2019, 10:10:25 AM)
+[2019.06.28-00.10.25:977][894]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.06.28-00.10.25:987][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010472s)
+[2019.06.28-00.10.25:988][894]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.06.28-00.10.25:988][894]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2019.06.28-00.10.25:988][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011270s)
+[2019.06.28-00.10.26:019][894]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2019.06.28-00.10.26:059][894]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.28-00.10.26:070][894]LogInit: FAudioDevice initialized.
+[2019.06.28-00.10.26:100][894]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.06.28-00.10.26:103][894]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.06.27-17.10.26
+[2019.06.28-00.10.26:103][894]LogWorld: Bringing up level for play took: 0.002942
+[2019.06.28-00.10.26:116][894]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.042
+[2019.06.28-00.10.26:116][894]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.28-00.10.28:395][164]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.28-00.10.28:395][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.28-00.10.28:422][164]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.28-00.10.28:422][164]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.28-00.10.28:454][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.28-00.10.28:457][164]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2019.06.28-00.10.28:498][166]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2019.06.28-00.10.29:831][326]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.28-00.10.29:953][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2019.06.28-00.10.30:142][336]LogSavePackage: Moving 'C:/Users/orion/Desktop/Code/Labarynth/Project/Saved/FirstPersonExampleMap4677B1E944D3365D3F3C5AAF5BC874D5.tmp' to 'C:/Users/orion/Desktop/Code/Labarynth/Project/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.06.28-00.10.30:823][336]LogSavePackage: Moving 'C:/Users/orion/Desktop/Code/Labarynth/Project/Saved/FirstPersonExampleMap_BuiltData76449A6640A38E2A6E8A0781705832F3.tmp' to 'C:/Users/orion/Desktop/Code/Labarynth/Project/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
