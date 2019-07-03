@@ -1,0 +1,1710 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Labarynth Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Mac",
+				"Debug",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Mac",
+				"Debug",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Mac",
+				"Debug",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Mac",
+				"DebugGame",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Mac",
+				"DebugGame",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Mac",
+				"DebugGame",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Mac",
+				"Development",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Mac",
+				"Development",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Mac",
+				"Development",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Mac",
+				"Shipping",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Mac",
+				"Shipping",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Mac",
+				"Shipping",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Mac",
+				"Test",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Mac",
+				"Test",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Mac",
+				"Test",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"IOS",
+				"Debug",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"IOS",
+				"Debug",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"IOS",
+				"Debug",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"IOS",
+				"DebugGame",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"IOS",
+				"DebugGame",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"IOS",
+				"DebugGame",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"IOS",
+				"Development",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"IOS",
+				"Development",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"IOS",
+				"Development",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"IOS",
+				"Shipping",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"IOS",
+				"Shipping",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"IOS",
+				"Shipping",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"IOS",
+				"Test",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"IOS",
+				"Test",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"IOS",
+				"Test",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"HTML5",
+				"Debug",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"HTML5",
+				"Debug",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"HTML5",
+				"Debug",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"HTML5",
+				"DebugGame",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"HTML5",
+				"DebugGame",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"HTML5",
+				"DebugGame",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"HTML5",
+				"Development",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"HTML5",
+				"Development",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"HTML5",
+				"Development",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"HTML5",
+				"Shipping",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"HTML5",
+				"Shipping",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"HTML5",
+				"Shipping",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"HTML5",
+				"Test",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"HTML5",
+				"Test",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"HTML5",
+				"Test",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Linux",
+				"Debug",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Linux",
+				"Debug",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Linux",
+				"Debug",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Linux",
+				"DebugGame",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Linux",
+				"DebugGame",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Linux",
+				"DebugGame",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Linux",
+				"Development",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Linux",
+				"Development",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Linux",
+				"Development",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Linux",
+				"Shipping",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Linux",
+				"Shipping",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Linux",
+				"Shipping",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Linux",
+				"Test",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Linux",
+				"Test",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"Linux",
+				"Test",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"TVOS",
+				"Debug",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"TVOS",
+				"Debug",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"TVOS",
+				"Debug",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"TVOS",
+				"DebugGame",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"TVOS",
+				"DebugGame",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"TVOS",
+				"DebugGame",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"TVOS",
+				"Development",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"TVOS",
+				"Development",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"TVOS",
+				"Development",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"TVOS",
+				"Shipping",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"TVOS",
+				"Shipping",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"TVOS",
+				"Shipping",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"TVOS",
+				"Test",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"TVOS",
+				"Test",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Labarynth TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "Labarynth TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Labarynth",
+				"TVOS",
+				"Test",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "LabarynthEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"LabarynthEditor",
+				"Linux",
+				"Debug",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "LabarynthEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"LabarynthEditor",
+				"Linux",
+				"Debug",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LabarynthEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "LabarynthEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"LabarynthEditor",
+				"Linux",
+				"Debug",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "LabarynthEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"LabarynthEditor",
+				"Linux",
+				"DebugGame",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "LabarynthEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"LabarynthEditor",
+				"Linux",
+				"DebugGame",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LabarynthEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "LabarynthEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"LabarynthEditor",
+				"Linux",
+				"DebugGame",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "LabarynthEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"LabarynthEditor",
+				"Linux",
+				"Development",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "LabarynthEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"LabarynthEditor",
+				"Linux",
+				"Development",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LabarynthEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "LabarynthEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"LabarynthEditor",
+				"Linux",
+				"Development",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "LabarynthEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"LabarynthEditor",
+				"Mac",
+				"Debug",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "LabarynthEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"LabarynthEditor",
+				"Mac",
+				"Debug",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LabarynthEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "LabarynthEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"LabarynthEditor",
+				"Mac",
+				"Debug",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "LabarynthEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"LabarynthEditor",
+				"Mac",
+				"DebugGame",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "LabarynthEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"LabarynthEditor",
+				"Mac",
+				"DebugGame",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LabarynthEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "LabarynthEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"LabarynthEditor",
+				"Mac",
+				"DebugGame",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "LabarynthEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"LabarynthEditor",
+				"Mac",
+				"Development",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "LabarynthEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"LabarynthEditor",
+				"Mac",
+				"Development",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"LabarynthEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		},
+		{
+			"label": "LabarynthEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"LabarynthEditor",
+				"Mac",
+				"Development",
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/games/UnrealEngine"
+			}
+		}
+	]
+}

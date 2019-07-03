@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"/home/donovan/Documents/Unreal Projects/Labarynth/Project/.vscode": true,
+		"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Content": true,
+		"/home/donovan/Documents/Unreal Projects/Labarynth/Project/DerivedDataCache": true,
+		"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Intermediate": true,
+		"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved": true
+	}
+}

@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Labarynth (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Labarynth Linux Debug Build",
+			"program": "/home/donovan/Documents/Unreal Projects/Labarynth/Project/Binaries/Linux/Labarynth-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/games/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Labarynth (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Labarynth Linux DebugGame Build",
+			"program": "/home/donovan/Documents/Unreal Projects/Labarynth/Project/Binaries/Linux/Labarynth-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/games/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Labarynth (Development)",
+			"request": "launch",
+			"preLaunchTask": "Labarynth Linux Development Build",
+			"program": "/home/donovan/Documents/Unreal Projects/Labarynth/Project/Binaries/Linux/Labarynth",
+			"args": [
+			],
+			"cwd": "/games/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Labarynth (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "Labarynth Linux Shipping Build",
+			"program": "/home/donovan/Documents/Unreal Projects/Labarynth/Project/Binaries/Linux/Labarynth-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/games/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Labarynth (Test)",
+			"request": "launch",
+			"preLaunchTask": "Labarynth Linux Test Build",
+			"program": "/home/donovan/Documents/Unreal Projects/Labarynth/Project/Binaries/Linux/Labarynth-Linux-Test",
+			"args": [
+			],
+			"cwd": "/games/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "LabarynthEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "LabarynthEditor Linux Debug Build",
+			"program": "/games/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject"
+			],
+			"cwd": "/games/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "LabarynthEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "LabarynthEditor Linux DebugGame Build",
+			"program": "/games/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject"
+			],
+			"cwd": "/games/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "LabarynthEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "LabarynthEditor Linux Development Build",
+			"program": "/games/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject"
+			],
+			"cwd": "/games/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/games/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/games/UnrealEngine"
+		}
+	]
+}
