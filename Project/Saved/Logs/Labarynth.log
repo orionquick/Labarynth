@@ -636,3 +636,219 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.07.03-06.07.39:929][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.07.03-06.07.39:934][240]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
 [2019.07.03-06.07.39:968][242]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.07.03-06.08.01:834][446]LogEditorViewport: Clicking on Actor (LMB): Corner_Door00_C (Door_Corner00)
+[2019.07.03-06.08.02:523][524]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-06.08.02:589][532]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.03-06.08.02:612][532]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.03-06.08.02:613][532]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.03-06.08.02:613][532]PIE: New page: PIE session: FirstPersonExampleMap (Jul 2, 2019, 4:08:02 PM)
+[2019.07.03-06.08.02:613][532]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.07.03-06.08.02:618][532]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005108s)
+[2019.07.03-06.08.02:618][532]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.07.03-06.08.02:619][532]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2019.07.03-06.08.02:619][532]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.005990s)
+[2019.07.03-06.08.02:650][532]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2019.07.03-06.08.02:686][532]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.03-06.08.02:697][532]LogInit: FAudioDevice initialized.
+[2019.07.03-06.08.02:725][532]LogLoad: Game class is 'PlayerGameMode_C'
+[2019.07.03-06.08.02:727][532]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.07.02-23.08.02
+[2019.07.03-06.08.02:727][532]LogWorld: Bringing up level for play took: 0.001899
+[2019.07.03-06.08.02:739][532]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.07.03-06.08.02:741][532]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.861
+[2019.07.03-06.08.02:741][532]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.03-06.08.20:806][697]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.03-06.08.20:806][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-06.08.20:836][697]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.03-06.08.20:836][697]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.03-06.08.20:875][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-06.08.20:880][697]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2019.07.03-06.08.20:918][699]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.07.03-06.08.22:619][903]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-06.08.33:013][ 70]LogAssetEditorManager: Opening Asset editor for Material /Game/FirstPersonBP/Models/ModularDungeon/Textures/M_CastleWallTiled.M_CastleWallTiled
+[2019.07.03-06.08.33:054][ 70]LogMaterial: Display: Missing cached shader map for material M_CastleWallTiled, compiling. 
+[2019.07.03-06.08.33:682][ 70]LogMaterial: Display: Missing cached shader map for material M_CastleWallTiled, compiling. 
+[2019.07.03-06.08.33:704][ 70]LogMaterial: Display: Missing cached shader map for material M_CastleWallTiled, compiling. 
+[2019.07.03-06.08.33:724][ 70]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.03-06.08.33:749][ 70]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.07.03-06.08.33:755][ 70]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.07.03-06.08.33:761][ 70]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2019.07.03-06.08.33:767][ 70]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.07.03-06.08.34:876][105]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.03-06.08.35:350][135]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.03-06.08.35:866][166]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.03-06.08.36:487][198]MaterialEditorStats: Base pass shader: 120 instructions
+[2019.07.03-06.08.36:487][198]MaterialEditorStats: Base pass shader with Surface Lightmap: 148 instructions
+[2019.07.03-06.08.36:487][198]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2019.07.03-06.08.36:487][198]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.07.03-06.08.36:487][198]MaterialEditorStats: Texture samplers: 7/16
+[2019.07.03-06.08.36:487][198]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2019.07.03-06.08.36:487][198]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.07.03-06.08.45:782][208]LogMaterial: Display: Missing cached shader map for material M_CastleWallTiled, compiling. 
+[2019.07.03-06.08.45:803][208]LogMaterial: Display: Missing cached shader map for material M_CastleWallTiled, compiling. 
+[2019.07.03-06.08.45:829][208]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.03-06.08.46:096][230]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.03-06.08.46:600][269]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.03-06.08.46:842][287]LogMaterial: Display: Missing cached shader map for material M_CastleWallTiled, compiling. 
+[2019.07.03-06.08.46:878][287]LogMaterial: Display: Missing cached shader map for material M_CastleWallTiled, compiling. 
+[2019.07.03-06.08.46:907][287]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.03-06.08.47:277][314]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.03-06.08.47:811][350]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.03-06.08.48:292][384]LogMaterial: Display: Missing cached shader map for material M_CastleWallTiled, compiling. 
+[2019.07.03-06.08.48:317][384]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.03-06.08.48:351][386]LogMaterialEditor: Applying material M_CastleWallTiled
+[2019.07.03-06.08.48:893][386]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.03-06.08.48:915][386]LogMaterial: Display: Missing cached shader map for material M_CastleWallTiled, compiling. 
+[2019.07.03-06.08.49:023][386]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.03-06.08.49:052][386]LogMaterial: Display: Missing cached shader map for material M_CastleWallTiled, compiling. 
+[2019.07.03-06.08.49:090][386]LogMaterial: Display: Missing cached shader map for material M_CastleWallTiled, compiling. 
+[2019.07.03-06.08.49:161][386]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2019.07.03-06.08.49:189][386]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.07.03-06.08.50:530][386]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.07.03-06.08.50:530][386]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.07.03-06.08.50:542][386]TextureStreamingBuild: Display: Compiling optional shaders took 1.381 seconds.
+[2019.07.03-06.08.50:595][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2019.07.03-06.08.53:284][675]MaterialEditorStats: Base pass shader: 120 instructions
+[2019.07.03-06.08.53:284][675]MaterialEditorStats: Base pass shader with Surface Lightmap: 148 instructions
+[2019.07.03-06.08.53:284][675]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2019.07.03-06.08.53:284][675]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.07.03-06.08.53:284][675]MaterialEditorStats: Texture samplers: 7/16
+[2019.07.03-06.08.53:284][675]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2019.07.03-06.08.53:284][675]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.07.03-06.09.02:194][739]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.03-06.09.02:217][739]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.03-06.09.02:217][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.03-06.09.02:217][739]PIE: New page: PIE session: FirstPersonExampleMap (Jul 2, 2019, 4:09:02 PM)
+[2019.07.03-06.09.02:217][739]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.07.03-06.09.02:222][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004803s)
+[2019.07.03-06.09.02:223][739]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.07.03-06.09.02:223][739]LogPlayLevel: PIE: World Init took: (0.000474s)
+[2019.07.03-06.09.02:223][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.005385s)
+[2019.07.03-06.09.02:260][739]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2019.07.03-06.09.02:294][739]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.03-06.09.02:305][739]LogInit: FAudioDevice initialized.
+[2019.07.03-06.09.02:333][739]LogLoad: Game class is 'PlayerGameMode_C'
+[2019.07.03-06.09.02:336][739]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.07.02-23.09.02
+[2019.07.03-06.09.02:336][739]LogWorld: Bringing up level for play took: 0.002694
+[2019.07.03-06.09.02:348][739]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.07.03-06.09.02:350][739]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.748
+[2019.07.03-06.09.02:350][739]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.03-06.09.04:413][979]Cmd: LevelEditor.ToggleImmersive
+[2019.07.03-06.09.04:553][980]LogRenderer: Reallocating scene render targets to support 1352x724 Format 10 NumSamples 1 (Frame:242).
+[2019.07.03-06.09.04:620][981]LogRenderer: Reallocating scene render targets to support 1920x1040 Format 10 NumSamples 1 (Frame:244).
+[2019.07.03-06.09.04:622][981]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.03-06.09.32:582][332]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.03-06.09.32:582][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-06.09.32:638][332]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.03-06.09.32:638][332]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.03-06.09.32:676][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-06.09.32:681][332]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2019.07.03-06.09.32:702][333]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.07.03-06.09.37:037][851]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-06.09.37:120][861]LogSlate: Window 'M_CastleWallTiled' being destroyed
+[2019.07.03-06.09.37:122][861]LogSlate: Window 'M_CastleWallTiled' being destroyed
+[2019.07.03-06.09.41:064][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.03-06.09.41:667][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-06.09.41:742][294]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.03-06.09.41:765][294]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.03-06.09.41:765][294]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.03-06.09.41:765][294]PIE: New page: PIE session: FirstPersonExampleMap (Jul 2, 2019, 4:09:41 PM)
+[2019.07.03-06.09.41:765][294]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.07.03-06.09.41:770][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004814s)
+[2019.07.03-06.09.41:770][294]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.07.03-06.09.41:770][294]LogPlayLevel: PIE: World Init took: (0.000482s)
+[2019.07.03-06.09.41:770][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.005397s)
+[2019.07.03-06.09.41:809][294]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2019.07.03-06.09.41:843][294]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.03-06.09.41:854][294]LogInit: FAudioDevice initialized.
+[2019.07.03-06.09.41:880][294]LogLoad: Game class is 'PlayerGameMode_C'
+[2019.07.03-06.09.41:882][294]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.07.02-23.09.41
+[2019.07.03-06.09.41:882][294]LogWorld: Bringing up level for play took: 0.001776
+[2019.07.03-06.09.41:894][294]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.07.03-06.09.41:896][294]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.294
+[2019.07.03-06.09.41:896][294]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.03-06.10.18:210][650]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.03-06.10.18:210][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-06.10.18:242][650]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.03-06.10.18:242][650]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.03-06.10.18:280][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-06.10.18:285][650]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2019.07.03-06.10.18:321][652]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.07.03-06.10.19:826][832]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-06.10.20:122][867]LogAssetEditorManager: Opening Asset editor for Material /Game/FirstPersonBP/Models/ModularDungeon/Textures/M_CastleWallTiled.M_CastleWallTiled
+[2019.07.03-06.10.20:126][867]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.03-06.10.20:223][867]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.03-06.10.20:244][867]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.03-06.10.20:269][867]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.03-06.10.20:294][867]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.07.03-06.10.20:300][867]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.07.03-06.10.20:306][867]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2019.07.03-06.10.20:311][867]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.07.03-06.10.20:626][878]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.03-06.10.21:094][907]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.03-06.10.21:628][938]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.03-06.10.22:102][969]MaterialEditorStats: Base pass shader: 120 instructions
+[2019.07.03-06.10.22:102][969]MaterialEditorStats: Base pass shader with Surface Lightmap: 148 instructions
+[2019.07.03-06.10.22:102][969]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2019.07.03-06.10.22:102][969]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.07.03-06.10.22:102][969]MaterialEditorStats: Texture samplers: 7/16
+[2019.07.03-06.10.22:102][969]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2019.07.03-06.10.22:102][969]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.07.03-06.10.26:121][430]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.03-06.10.26:139][430]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.03-06.10.26:142][430]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.03-06.10.26:360][444]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.03-06.10.26:638][466]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.03-06.10.27:112][502]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.03-06.10.27:138][502]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.03-06.10.27:143][502]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.03-06.10.27:170][502]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.03-06.10.27:519][524]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.03-06.10.27:938][552]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.03-06.10.27:998][554]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.03-06.10.27:999][554]LogMaterialEditor: Applying material M_CastleWallTiled
+[2019.07.03-06.10.28:553][554]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.03-06.10.28:579][554]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.07.03-06.10.28:696][554]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.03-06.10.28:716][554]LogMaterial: Display: Missing cached shader map for material M_CastleWallTiled, compiling. 
+[2019.07.03-06.10.28:747][554]LogMaterial: Display: Missing cached shader map for material M_CastleWallTiled, compiling. 
+[2019.07.03-06.10.28:814][554]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2019.07.03-06.10.28:824][554]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.07.03-06.10.30:177][554]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.07.03-06.10.30:178][554]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.07.03-06.10.30:182][554]TextureStreamingBuild: Display: Compiling optional shaders took 1.367 seconds.
+[2019.07.03-06.10.30:234][554]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2019.07.03-06.10.30:646][593]LogMaterialEditor: Saving and Compiling material M_CastleWallTiled
+[2019.07.03-06.10.32:716][593]LogSavePackage: Moving 'C:/Users/orion/Desktop/Code/Labarynth/Project/Saved/M_CastleWallTiledA4224A6347944F49840D5CA99AE83A0A.tmp' to 'C:/Users/orion/Desktop/Code/Labarynth/Project/Content/FirstPersonBP/Models/ModularDungeon/Textures/M_CastleWallTiled.uasset'
+[2019.07.03-06.10.32:733][593]MaterialEditorStats: Base pass shader: 120 instructions
+[2019.07.03-06.10.32:734][593]MaterialEditorStats: Base pass shader with Surface Lightmap: 148 instructions
+[2019.07.03-06.10.32:734][593]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2019.07.03-06.10.32:734][593]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.07.03-06.10.32:734][593]MaterialEditorStats: Texture samplers: 7/16
+[2019.07.03-06.10.32:734][593]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2019.07.03-06.10.32:734][593]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.07.03-06.10.33:312][661]LogSlate: Window 'M_CastleWallTiled' being destroyed
+[2019.07.03-06.10.33:697][695]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.03-06.10.33:724][695]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.03-06.10.33:724][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.03-06.10.33:724][695]PIE: New page: PIE session: FirstPersonExampleMap (Jul 2, 2019, 4:10:33 PM)
+[2019.07.03-06.10.33:724][695]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.07.03-06.10.33:729][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005029s)
+[2019.07.03-06.10.33:730][695]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.07.03-06.10.33:730][695]LogPlayLevel: PIE: World Init took: (0.000462s)
+[2019.07.03-06.10.33:730][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.005604s)
+[2019.07.03-06.10.33:769][695]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2019.07.03-06.10.33:816][695]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.03-06.10.33:828][695]LogInit: FAudioDevice initialized.
+[2019.07.03-06.10.33:859][695]LogLoad: Game class is 'PlayerGameMode_C'
+[2019.07.03-06.10.33:861][695]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.07.02-23.10.33
+[2019.07.03-06.10.33:862][695]LogWorld: Bringing up level for play took: 0.002024
+[2019.07.03-06.10.33:874][695]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.07.03-06.10.33:876][695]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.274
+[2019.07.03-06.10.33:876][695]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.03-06.11.21:137][361]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.03-06.11.21:137][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-06.11.21:167][361]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.03-06.11.21:167][361]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.03-06.11.21:204][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-06.11.21:209][361]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2019.07.03-06.11.21:246][363]LogPlayLevel: Display: Destroying online subsystem :Context_15
