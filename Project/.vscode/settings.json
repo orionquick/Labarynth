@@ -1,9 +1,9 @@
 {
 	"files.exclude": {
-		"/home/donovan/Documents/Unreal Projects/Labarynth/Project/.vscode": true,
-		"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Content": true,
-		"/home/donovan/Documents/Unreal Projects/Labarynth/Project/DerivedDataCache": true,
-		"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Intermediate": true,
-		"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved": true
+		"/home/donovan/Documents/Unreal Projects/Labarynth/Project 4.22/.vs": true,
+		"/home/donovan/Documents/Unreal Projects/Labarynth/Project 4.22/.vscode": true,
+		"/home/donovan/Documents/Unreal Projects/Labarynth/Project 4.22/Content": true,
+		"/home/donovan/Documents/Unreal Projects/Labarynth/Project 4.22/Intermediate": true,
+		"/home/donovan/Documents/Unreal Projects/Labarynth/Project 4.22/Saved": true
 	}
 }

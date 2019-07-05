@@ -5,7 +5,7 @@
 			"name": "Labarynth (Debug)",
 			"request": "launch",
 			"preLaunchTask": "Labarynth Linux Debug Build",
-			"program": "/home/donovan/Documents/Unreal Projects/Labarynth/Project/Binaries/Linux/Labarynth-Linux-Debug",
+			"program": "/home/donovan/Documents/Unreal Projects/Labarynth/Project 4.22/Binaries/Linux/Labarynth-Linux-Debug",
 			"args": [
 			],
 			"cwd": "/games/UnrealEngine",
@@ -15,7 +15,7 @@
 			"name": "Labarynth (DebugGame)",
 			"request": "launch",
 			"preLaunchTask": "Labarynth Linux DebugGame Build",
-			"program": "/home/donovan/Documents/Unreal Projects/Labarynth/Project/Binaries/Linux/Labarynth-Linux-DebugGame",
+			"program": "/home/donovan/Documents/Unreal Projects/Labarynth/Project 4.22/Binaries/Linux/Labarynth-Linux-DebugGame",
 			"args": [
 			],
 			"cwd": "/games/UnrealEngine",
@@ -25,7 +25,7 @@
 			"name": "Labarynth (Development)",
 			"request": "launch",
 			"preLaunchTask": "Labarynth Linux Development Build",
-			"program": "/home/donovan/Documents/Unreal Projects/Labarynth/Project/Binaries/Linux/Labarynth",
+			"program": "/home/donovan/Documents/Unreal Projects/Labarynth/Project 4.22/Binaries/Linux/Labarynth",
 			"args": [
 			],
 			"cwd": "/games/UnrealEngine",
@@ -35,7 +35,7 @@
 			"name": "Labarynth (Shipping)",
 			"request": "launch",
 			"preLaunchTask": "Labarynth Linux Shipping Build",
-			"program": "/home/donovan/Documents/Unreal Projects/Labarynth/Project/Binaries/Linux/Labarynth-Linux-Shipping",
+			"program": "/home/donovan/Documents/Unreal Projects/Labarynth/Project 4.22/Binaries/Linux/Labarynth-Linux-Shipping",
 			"args": [
 			],
 			"cwd": "/games/UnrealEngine",
@@ -45,7 +45,7 @@
 			"name": "Labarynth (Test)",
 			"request": "launch",
 			"preLaunchTask": "Labarynth Linux Test Build",
-			"program": "/home/donovan/Documents/Unreal Projects/Labarynth/Project/Binaries/Linux/Labarynth-Linux-Test",
+			"program": "/home/donovan/Documents/Unreal Projects/Labarynth/Project 4.22/Binaries/Linux/Labarynth-Linux-Test",
 			"args": [
 			],
 			"cwd": "/games/UnrealEngine",
@@ -57,7 +57,7 @@
 			"preLaunchTask": "LabarynthEditor Linux Debug Build",
 			"program": "/games/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
 			"args": [
-				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject"
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project 4.22/Labarynth.uproject"
 			],
 			"cwd": "/games/UnrealEngine",
 			"type": "lldb"
@@ -68,7 +68,7 @@
 			"preLaunchTask": "LabarynthEditor Linux DebugGame Build",
 			"program": "/games/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
 			"args": [
-				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject"
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project 4.22/Labarynth.uproject"
 			],
 			"cwd": "/games/UnrealEngine",
 			"type": "lldb"
@@ -79,7 +79,7 @@
 			"preLaunchTask": "LabarynthEditor Linux Development Build",
 			"program": "/games/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
 			"args": [
-				"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject"
+				"/home/donovan/Documents/Unreal Projects/Labarynth/Project 4.22/Labarynth.uproject"
 			],
 			"cwd": "/games/UnrealEngine",
 			"type": "lldb"
@@ -93,7 +93,7 @@
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=\"/home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject\"",
+				"-project=\"/home/donovan/Documents/Unreal Projects/Labarynth/Project 4.22/Labarynth.uproject\"",
 				"-game",
 				"-engine"
 			],

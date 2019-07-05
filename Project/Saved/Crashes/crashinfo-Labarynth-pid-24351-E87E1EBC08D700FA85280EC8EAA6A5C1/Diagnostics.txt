@@ -1,0 +1,32 @@
+Generating report for minidump
+
+Application version 4.22.3.0
+ ... built from changelist 0
+
+OS version Linux 4.15.0-54-generic (network name: donovan-FR)
+Running 4 x86_64 processors (4 logical cores)
+Exception was "SIGSEGV: invalid attempt to write memory at address 0x00000000000003f8"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Labarynth-7935.so!AChunk::SetHashAndGenerate(int, int, int, std::__1::vector<int, std::__1::allocator<int> >) [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Source/Labarynth/Chunk.cpp:489]
+libUE4Editor-Labarynth-7935.so!AChunkerGameMode::VerifyOrSpawnNew(int, int) [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Source/Labarynth/ChunkerGameMode.cpp:104]
+libUE4Editor-Labarynth-7935.so!AChunkerGameMode::EvaluateChunks() [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Source/Labarynth/ChunkerGameMode.cpp:68]
+libUE4Editor-Engine.so!FTimerUnifiedDelegate::Execute() [/games/UnrealEngine/Engine/Source/Runtime/Engine/Public/TimerManager.h:46]
+libUE4Editor-Engine.so!FTimerManager::Tick(float) [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/TimerManager.cpp:602]
+libUE4Editor-Engine.so!UWorld::Tick(ELevelTick, float) [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/LevelTick.cpp:1627]
+libUE4Editor-UnrealEd.so!UEditorEngine::Tick(float, bool) [/games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/EditorEngine.cpp:1617]
+libUE4Editor-UnrealEd.so!UUnrealEdEngine::Tick(float, bool) [/games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/UnrealEdEngine.cpp:400]
+UE4Editor!FEngineLoop::Tick() [/games/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:3961]
+UE4Editor!GuardedMain(char16_t const*) [/games/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:170]
+libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*)) [/games/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:243]
+libc.so.6!__libc_start_main(+0xe6)
+UE4Editor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
