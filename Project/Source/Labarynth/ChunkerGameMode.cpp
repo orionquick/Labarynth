@@ -101,6 +101,7 @@ void AChunkerGameMode::VerifyOrSpawnNew(int32 X, int32 Y)
 
         newChunk->SetHashAndGenerate(X, Y, salt, ltrb);
         newChunk->FinishSpawning(FTransform(spawnLoc));
+        newChunk->SetReplicates(true);
 
         //add to hashmap
         chunk_holding.insert({key, newChunk});

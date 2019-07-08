@@ -707,6 +707,7 @@ void AChunk::OnConstruction(const FTransform& Transform)
                     {
                         //UE_LOG(LogTemp, Warning, TEXT("Spawned hallway"));
                         spawnedFab->AttachToActor(this, FAttachmentTransformRules::KeepWorldTransform);
+                        spawnedFab->SetReplicates(true);
                         subCompList.push_back(spawnedFab);
                     }
                 }
@@ -778,6 +779,7 @@ void AChunk::OnConstruction(const FTransform& Transform)
                 {
                     //UE_LOG(LogTemp, Warning, TEXT("Spawned hallway"));
                     spawnedFab->AttachToActor(this, FAttachmentTransformRules::KeepWorldTransform);
+                    spawnedFab->SetReplicates(true);
                     subCompList.push_back(spawnedFab);
                 }
             }
@@ -839,6 +841,7 @@ void AChunk::OnConstruction(const FTransform& Transform)
                     {
                         //UE_LOG(LogTemp, Warning, TEXT("Spawned room"));
                         spawnedFab->AttachToActor(this, FAttachmentTransformRules::KeepWorldTransform);
+                        spawnedFab->SetReplicates(true);
                         subCompList.push_back(spawnedFab);
                     }
                 }
