@@ -1,0 +1,835 @@
+﻿Log file open, 07/08/19 13:32:27
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine without a game
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: Loading recent project file: ../../../../../home/donovan/Documents/Unreal Projects/Labarynth/Project/Labarynth.uproject
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.071701
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin AndroidPermission
+LogInit: Using libcurl 7.48.0-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: Build: ++UE4+Release-4.22-CL-0
+LogInit: Engine Version: 4.22.3-0+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-0+++UE4+Release-4.22
+LogInit: Net CL: 0
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz, GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Jun 27 2019 15:42:35
+LogInit: Compiled with Clang: 7.0.1 (tags/RELEASE_701/final)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: /games/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[r.RHICmdBypass:1]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Engine.ini]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Engine.ini]
+[2019.07.08-20.32.28:992][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Engine.ini]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Engine.ini]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.07.08-20.32.28:992][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Engine.ini]
+[2019.07.08-20.32.28:992][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Engine.ini]
+[2019.07.08-20.32.28:992][  0]LogInit: Initializing SDL.
+[2019.07.08-20.32.29:101][  0]LogInit: Initialized SDL 2.0.8 revision: 11184 (hg-12121:4358e537000a with EpicExtensions) (compiled against 2.0.8)
+[2019.07.08-20.32.29:101][  0]LogInit: Using SDL video driver 'x11'
+[2019.07.08-20.32.29:101][  0]LogInit: Display metrics:
+[2019.07.08-20.32.29:101][  0]LogInit:   PrimaryDisplayWidth: 1920
+[2019.07.08-20.32.29:101][  0]LogInit:   PrimaryDisplayHeight: 1080
+[2019.07.08-20.32.29:101][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2019.07.08-20.32.29:101][  0]LogInit:     Left=0, Top=27, Right=1920, Bottom=1080
+[2019.07.08-20.32.29:101][  0]LogInit:   VirtualDisplayRect:
+[2019.07.08-20.32.29:101][  0]LogInit:     Left=0, Top=27, Right=1920, Bottom=1080
+[2019.07.08-20.32.29:101][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2019.07.08-20.32.29:101][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2019.07.08-20.32.29:101][  0]LogInit:   Number of monitors: 1
+[2019.07.08-20.32.29:101][  0]LogInit:     Monitor 0
+[2019.07.08-20.32.29:101][  0]LogInit:       Name: VX2453 Series 23"
+[2019.07.08-20.32.29:101][  0]LogInit:       ID: display0
+[2019.07.08-20.32.29:101][  0]LogInit:       NativeWidth: 1920
+[2019.07.08-20.32.29:101][  0]LogInit:       NativeHeight: 1080
+[2019.07.08-20.32.29:101][  0]LogInit:       bIsPrimary: true
+[2019.07.08-20.32.29:102][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.07.08-20.32.29:102][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.07.08-20.32.29:103][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.07.08-20.32.29:103][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.07.08-20.32.29:103][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.07.08-20.32.29:103][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.08-20.32.29:103][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.07.08-20.32.29:103][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.07.08-20.32.29:103][  0]LogLinux: Selected Device Profile: [Linux]
+[2019.07.08-20.32.29:103][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2019.07.08-20.32.29:112][  0]LogHAL: Display: Platform has ~ 4 GB [10413928448 / 4294967296 / 10], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.07.08-20.32.29:112][  0]LogInit: Going up to parent DeviceProfile []
+[2019.07.08-20.32.29:112][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.07.08-20.32.29:112][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.07.08-20.32.29:113][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Engine.ini]
+[2019.07.08-20.32.29:113][  0]LogConfig: Setting CVar [[g.TimeoutForBlockOnRenderFence:60000]]
+[2019.07.08-20.32.29:113][  0]LogInit: Unix hardware info:
+[2019.07.08-20.32.29:113][  0]LogInit:  - we are the first instance of this executable
+[2019.07.08-20.32.29:113][  0]LogInit:  - this process' id (pid) is 10844, parent process' id (ppid) is 6527
+[2019.07.08-20.32.29:113][  0]LogInit:  - we are not running under debugger
+[2019.07.08-20.32.29:113][  0]LogInit:  - machine network name is 'donovan-FR'
+[2019.07.08-20.32.29:113][  0]LogInit:  - user name is 'donovan' (donovan)
+[2019.07.08-20.32.29:113][  0]LogInit:  - we're logged in locally
+[2019.07.08-20.32.29:113][  0]LogInit:  - we're running with rendering
+[2019.07.08-20.32.29:113][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz' (signature: 0x306C3)
+[2019.07.08-20.32.29:113][  0]LogInit:  - Number of physical cores available for the process: 4
+[2019.07.08-20.32.29:113][  0]LogInit:  - Number of logical cores available for the process: 4
+[2019.07.08-20.32.29:113][  0]LogInit:  - Cache line size: 64
+[2019.07.08-20.32.29:113][  0]LogInit:  - Memory allocator used: binned2
+[2019.07.08-20.32.29:113][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2019.07.08-20.32.29:113][  0]LogCore: Benchmarking clocks:
+[2019.07.08-20.32.29:113][  0]LogCore:  - CLOCK_MONOTONIC (id=1) can sustain 56895204 (56895K, 57M) calls per second without zero deltas.
+[2019.07.08-20.32.29:113][  0]LogCore:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 2356712 (2357K, 2M) calls per second without zero deltas.
+[2019.07.08-20.32.29:113][  0]LogCore:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 158014984 (158015K, 158M) calls per second with 99.999836% zero deltas.
+[2019.07.08-20.32.29:113][  0]LogCore: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2019.07.08-20.32.29:113][  0]LogInit: Unix-specific commandline switches:
+[2019.07.08-20.32.29:113][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2019.07.08-20.32.29:113][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2019.07.08-20.32.29:113][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2019.07.08-20.32.29:114][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2019.07.08-20.32.29:114][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2019.07.08-20.32.29:114][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2019.07.08-20.32.29:114][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2019.07.08-20.32.29:114][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2019.07.08-20.32.29:114][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2019.07.08-20.32.29:114][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2019.07.08-20.32.29:114][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2019.07.08-20.32.29:114][  0]LogInit:  - Physical RAM available (not considering process quota): 10 GB (9931 MB, 10169852 KB, 10413928448 bytes)
+[2019.07.08-20.32.29:114][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2019.07.08-20.32.29:114][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2019.07.08-20.32.29:317][  0]LogInit: Using OS detected language (en-US).
+[2019.07.08-20.32.29:317][  0]LogInit: Using OS detected locale (en-US).
+[2019.07.08-20.32.29:318][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.07.08-20.32.29:558][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.07.08-20.32.29:558][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.07.08-20.32.30:348][  0]LogInit: Using SDL_WINDOW_VULKAN
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: - Found instance layer VK_LAYER_LUNARG_standard_validation
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: - Found instance layer VK_LAYER_VALVE_steam_fossilize_32
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: - Found instance layer VK_LAYER_VALVE_steam_fossilize_64
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: - Found instance layer VK_LAYER_VALVE_steam_overlay_32
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: - Found instance layer VK_LAYER_VALVE_steam_overlay_64
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: - Found instance extension VK_EXT_acquire_xlib_display
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: - Found instance extension VK_EXT_debug_report
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: - Found instance extension VK_EXT_debug_utils
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: - Found instance extension VK_EXT_direct_mode_display
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: - Found instance extension VK_EXT_display_surface_counter
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_device_group_creation
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_display
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_external_fence_capabilities
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_external_memory_capabilities
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_external_semaphore_capabilities
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_get_physical_device_properties2
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_get_surface_capabilities2
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_surface
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_xcb_surface
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_xlib_surface
+[2019.07.08-20.32.30:361][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: Not using instance layers
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: Using instance extensions
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: * VK_KHR_surface
+[2019.07.08-20.32.30:361][  0]LogVulkanRHI: Display: * VK_KHR_xlib_surface
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: Found 1 device(s)
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: Device 0: GeForce GTX 1060 6GB
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - API 1.1.95(0x40105f) Driver 0x6890c000 VendorId 0x10de
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - DeviceID 0x1c03 Type Discrete GPU
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Max Descriptor Sets Bound 32 Timestamps 1
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: Using Device 0: Geometry 1 Tessellation 1
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_blend_operation_advanced
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_conditional_rendering
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_conservative_rasterization
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_depth_range_unrestricted
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_descriptor_indexing
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_discard_rectangles
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_display_control
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_global_priority
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_inline_uniform_block
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_post_depth_coverage
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_sample_locations
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_sampler_filter_minmax
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_scalar_block_layout
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_shader_subgroup_ballot
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_shader_subgroup_vote
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_shader_viewport_index_layer
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_transform_feedback
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_vertex_attribute_divisor
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_16bit_storage
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_8bit_storage
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_bind_memory2
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_create_renderpass2
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_dedicated_allocation
+[2019.07.08-20.32.30:368][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_depth_stencil_resolve
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_descriptor_update_template
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_device_group
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_draw_indirect_count
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_driver_properties
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_external_fence
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_external_fence_fd
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_external_memory
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_external_memory_fd
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_external_semaphore
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_external_semaphore_fd
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_get_memory_requirements2
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_image_format_list
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_maintenance1
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_maintenance2
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_maintenance3
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_multiview
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_push_descriptor
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_relaxed_block_layout
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_sampler_mirror_clamp_to_edge
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_sampler_ycbcr_conversion
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_shader_atomic_int64
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_shader_draw_parameters
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_shader_float16_int8
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_shader_float_controls
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_storage_buffer_storage_class
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_swapchain
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_swapchain_mutable_format
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_variable_pointers
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_vulkan_memory_model
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_NV_clip_space_w_scaling
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_NV_dedicated_allocation
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_NV_device_diagnostic_checkpoints
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_NV_fill_rectangle
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_NV_fragment_coverage_to_color
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_NV_framebuffer_mixed_samples
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_NV_geometry_shader_passthrough
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_NV_ray_tracing
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_NV_sample_mask_override_coverage
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_NV_shader_subgroup_partitioned
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_NV_viewport_array2
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_NV_viewport_swizzle
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_NVX_device_generated_commands
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: - Found device extension VK_NVX_multiview_per_view_attributes
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: Using device extensions
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: * VK_KHR_swapchain
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: * VK_KHR_maintenance1
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: * VK_KHR_maintenance2
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: Found 3 Queue Families
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: Initializing Queue Family 0: 16 queues Gfx Compute Xfer Sparse
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: Initializing Queue Family 1: 1 queues Xfer
+[2019.07.08-20.32.30:369][  0]LogVulkanRHI: Display: Skipping unnecessary Queue Family 2: 8 queues Compute
+[2019.07.08-20.32.30:573][  0]LogVulkanRHI: Display: 2 Device Memory Heaps; Max memory allocations -1
+[2019.07.08-20.32.30:573][  0]LogVulkanRHI: Display: 0: Flags 0x1 Size 6442450944 (6144.00 MB) GPU
+[2019.07.08-20.32.30:573][  0]LogVulkanRHI: Display: 1: Flags 0x0 Size 7810446336 (7448.62 MB) 
+[2019.07.08-20.32.30:573][  0]LogVulkanRHI: Display: 11 Device Memory Types (Not unified)
+[2019.07.08-20.32.30:573][  0]LogVulkanRHI: Display: 0: Flags 0x0 Heap 1 
+[2019.07.08-20.32.30:573][  0]LogVulkanRHI: Display: 1: Flags 0x0 Heap 1 
+[2019.07.08-20.32.30:573][  0]LogVulkanRHI: Display: 2: Flags 0x0 Heap 1 
+[2019.07.08-20.32.30:573][  0]LogVulkanRHI: Display: 3: Flags 0x0 Heap 1 
+[2019.07.08-20.32.30:573][  0]LogVulkanRHI: Display: 4: Flags 0x0 Heap 1 
+[2019.07.08-20.32.30:573][  0]LogVulkanRHI: Display: 5: Flags 0x0 Heap 1 
+[2019.07.08-20.32.30:573][  0]LogVulkanRHI: Display: 6: Flags 0x0 Heap 1 
+[2019.07.08-20.32.30:573][  0]LogVulkanRHI: Display: 7: Flags 0x1 Heap 0  Local
+[2019.07.08-20.32.30:573][  0]LogVulkanRHI: Display: 8: Flags 0x1 Heap 0  Local
+[2019.07.08-20.32.30:573][  0]LogVulkanRHI: Display: 9: Flags 0x6 Heap 1  HostVisible HostCoherent
+[2019.07.08-20.32.30:573][  0]LogVulkanRHI: Display: 10: Flags 0xe Heap 1  HostVisible HostCoherent HostCached
+[2019.07.08-20.32.30:592][  0]LogVulkanRHI: Display: FVulkanPipelineStateCacheManager: Binary pipeline cache '../../../../../home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/VulkanPSO.cache.10de.1c03' not found.
+[2019.07.08-20.32.30:600][  0]LogVulkanRHI: Display: Nvidia User Driver Version = 418.67
+[2019.07.08-20.32.30:611][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.08-20.32.30:611][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.08-20.32.30:611][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.08-20.32.30:613][  0]LogRHI: Texture pool is 4085 MB (70% of 5836 MB)
+[2019.07.08-20.32.31:255][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.07.08-20.32.31:418][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.07.08-20.32.31:594][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.07.08-20.32.31:762][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.07.08-20.32.31:940][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.07.08-20.32.32:101][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.07.08-20.32.32:320][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.07.08-20.32.32:320][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.07.08-20.32.32:320][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.07.08-20.32.32:320][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.07.08-20.32.32:320][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.07.08-20.32.32:320][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.07.08-20.32.32:320][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.07.08-20.32.32:320][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.07.08-20.32.32:320][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.07.08-20.32.32:320][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.07.08-20.32.32:320][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.07.08-20.32.32:320][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.07.08-20.32.32:320][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.07.08-20.32.32:320][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.07.08-20.32.32:320][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.07.08-20.32.32:320][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.07.08-20.32.32:320][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.07.08-20.32.32:320][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.07.08-20.32.32:328][  0]LogTargetPlatformManager: Display: Building Assets For Linux
+[2019.07.08-20.32.32:794][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../home/donovan/Documents/Unreal Projects/Labarynth/Project/Intermediate/Shaders/WorkingDirectory/10844/).
+[2019.07.08-20.32.32:794][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../home/donovan/Documents/Unreal Projects/Labarynth/Project/Intermediate/Shaders/tmp/0004423808D703A8BB4C5670550E32FE/'.
+[2019.07.08-20.32.32:794][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.07.08-20.32.33:898][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.07.08-20.32.33:979][  0]LogDerivedDataCache: Loaded boot cache 0.08s 95MB ../../../../../home/donovan/Documents/Unreal Projects/Labarynth/Project/DerivedDataCache/Boot.ddc.
+[2019.07.08-20.32.33:979][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../../home/donovan/Documents/Unreal Projects/Labarynth/Project/DerivedDataCache/Boot.ddc
+[2019.07.08-20.32.33:979][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../home/donovan/Documents/Unreal Projects/Labarynth/Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.08-20.32.33:979][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.07.08-20.32.33:979][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.08-20.32.33:979][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2019.07.08-20.32.33:980][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2019.07.08-20.32.33:980][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.07.08-20.32.33:980][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.07.08-20.32.34:016][  0]LogMaterial: Verifying Global Shaders for SF_VULKAN_SM5_NOUB
+[2019.07.08-20.32.34:025][  0]LogSlate: Using FreeType 2.6.0
+[2019.07.08-20.32.34:025][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2019.07.08-20.32.34:120][  0]LogAssetRegistry: FAssetRegistry took 0.0031 seconds to start up
+[2019.07.08-20.32.34:413][  0]LogLinux: Selected Device Profile: [Linux]
+[2019.07.08-20.32.35:140][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.07.08-20.32.35:140][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.07.08-20.32.35:140][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.07.08-20.32.35:140][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.07.08-20.32.35:140][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.07.08-20.32.35:140][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.07.08-20.32.35:157][  0]LogNetVersion: Labarynth 1.0.0, NetCL: 0, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1462557434)
+[2019.07.08-20.32.35:630][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.020718 seconds
+[2019.07.08-20.32.35:646][  0]LogUObjectArray: 41532 objects as part of root set at end of initial load.
+[2019.07.08-20.32.35:646][  0]LogUObjectAllocator: 7197144 out of 0 bytes used by permanent object pool.
+[2019.07.08-20.32.35:646][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.08-20.32.35:880][  0]LogHAL: Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+[2019.07.08-20.32.42:287][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.07.08-20.32.42:291][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.07.08-20.32.43:730][  0]SourceControl: Source control is disabled
+[2019.07.08-20.32.43:730][  0]SourceControl: Source control is disabled
+[2019.07.08-20.32.44:399][  0]SourceControl: Source control is disabled
+[2019.07.08-20.32.44:538][  0]SourceControl: Source control is disabled
+[2019.07.08-20.32.50:459][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.07.08-20.32.50:811][  0]LogEngine: Initializing Engine...
+[2019.07.08-20.32.50:812][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.08-20.32.50:813][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.07.08-20.32.51:122][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.07.08-20.32.51:666][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.07.08-20.32.51:676][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2019.07.08-20.32.51:676][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2019.07.08-20.32.51:676][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2019.07.08-20.32.51:676][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2019.07.08-20.32.51:676][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2019.07.08-20.32.51:676][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2019.07.08-20.32.51:676][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2019.07.08-20.32.51:677][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2019.07.08-20.32.51:687][  0]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2019.07.08-20.32.51:954][  0]LogInit: FAudioDevice initialized.
+[2019.07.08-20.32.51:955][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.07.08-20.32.52:020][  0]LogDerivedDataCache: Saved boot cache 0.06s 95MB ../../../../../home/donovan/Documents/Unreal Projects/Labarynth/Project/DerivedDataCache/Boot.ddc.
+[2019.07.08-20.32.52:032][  0]LogInit: Texture streaming: Enabled
+[2019.07.08-20.32.52:655][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.07.08-20.32.52:655][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={06146D4E-08D7-03A1-4211-CB8495BB891D}
+[2019.07.08-20.32.53:303][  0]LogInit: Transaction tracking system initialized
+[2019.07.08-20.32.54:214][  0]BlueprintLog: New page: Editor Load
+[2019.07.08-20.32.57:077][  0]LocalizationService: Localization service is disabled
+[2019.07.08-20.32.58:208][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2019.07.08-20.32.58:208][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2019.07.08-20.32.58:208][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2019.07.08-20.32.59:609][  0]LogFileCache: Scanning file cache for directory '/home/donovan/Documents/Unreal Projects/Labarynth/Project/Content/' took 0.00s
+[2019.07.08-20.32.59:609][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.07.08-20.32.59:609][  0]LogCook: Display: Mobile HDR setting 1
+[2019.07.08-20.33.03:549][  0]SourceControl: Source control is disabled
+[2019.07.08-20.33.03:550][  0]Cmd: MAP LOAD FILE="../../../../../home/donovan/Documents/Unreal Projects/Labarynth/Project/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.08-20.33.03:558][  0]LightingResults: New page: Lighting Build
+[2019.07.08-20.33.03:666][  0]MapCheck: New page: Map Check
+[2019.07.08-20.33.03:666][  0]LightingResults: New page: Lighting Build
+[2019.07.08-20.33.03:690][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2019.07.08-20.33.04:275][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.07.08-20.33.04:279][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.08-20.33.04:304][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2019.07.08-20.33.04:313][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.08-20.33.04:314][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.144ms to complete.
+[2019.07.08-20.33.04:314][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.764
+[2019.07.08-20.33.04:322][  0]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.08-20.33.04:323][  0]LogLinux: Scale at X=960.000000, Y=553.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.08-20.33.04:343][  0]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.08-20.33.04:496][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-20.33.04:504][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-20.33.04:512][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-20.33.04:520][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-20.33.04:531][  0]LogCollectionManager: Loaded 0 collections in 0.002127 seconds
+[2019.07.08-20.33.04:541][  0]LogFileCache: Scanning file cache for directory '/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Collections/' took 0.00s
+[2019.07.08-20.33.04:541][  0]LogFileCache: Scanning file cache for directory '/home/donovan/Documents/Unreal Projects/Labarynth/Project/Content/Developers/donovan/Collections/' took 0.00s
+[2019.07.08-20.33.04:541][  0]LogFileCache: Scanning file cache for directory '/home/donovan/Documents/Unreal Projects/Labarynth/Project/Content/Collections/' took 0.00s
+[2019.07.08-20.33.04:541][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2691 classes and 621 folders.
+[2019.07.08-20.33.04:543][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.07.08-20.33.04:803][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.07.08-20.33.04:806][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:807][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:808][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:809][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:811][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:812][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:814][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:816][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:817][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:819][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:820][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:822][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:823][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:825][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:826][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:828][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:829][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:831][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:832][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:834][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:835][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:836][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:837][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:839][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:840][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:841][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.08-20.33.04:871][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.07.08-20.33.04:946][  0]LogVulkanRHI: Display: Requested PixelFormat 18 not supported by this swapchain! Falling back to supported swapchain format...
+[2019.07.08-20.33.04:946][  0]LogVulkanRHI: Display: Queue Family 0: Supports Present
+[2019.07.08-20.33.04:946][  0]LogVulkanRHI: Display: Queue Family 0: Supports Present
+[2019.07.08-20.33.04:946][  0]LogVulkanRHI: Display: Found 3 Surface present modes:
+[2019.07.08-20.33.04:946][  0]LogVulkanRHI: Display: - VK_PRESENT_MODE_FIFO_KHR (2)
+[2019.07.08-20.33.04:946][  0]LogVulkanRHI: Display: - VK_PRESENT_MODE_FIFO_RELAXED_KHR (3)
+[2019.07.08-20.33.04:946][  0]LogVulkanRHI: Display: - VK_PRESENT_MODE_IMMEDIATE_KHR (0)
+[2019.07.08-20.33.04:946][  0]LogVulkanRHI: Display: Selected VkPresentModeKHR mode 2
+[2019.07.08-20.33.05:110][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.07.08-20.33.05:110][  0]LogLoad: (Engine Initialization) Total time: 38.86 seconds
+[2019.07.08-20.33.05:111][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.07.08-20.33.05:121][  0]LogSlate: Took 0.000080 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.07.08-20.33.05:127][  0]LogSlate: Took 0.000071 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.07.08-20.33.05:136][  0]LogSlate: Took 0.000749 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.07.08-20.33.05:197][  0]LogSlate: Took 0.000072 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.08-20.33.05:243][  0]LogInit: Adding external input plugin.
+[2019.07.08-20.33.05:272][  0]LogRenderer: Reallocating scene render targets to support 1236x644 Format 10 NumSamples 1 (Frame:1).
+[2019.07.08-20.33.05:273][  0]LogAssetRegistry: Asset discovery search completed in 31.1524 seconds
+[2019.07.08-20.33.05:275][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.07.08-20.33.05:275][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000073 seconds (updated 0 objects)
+[2019.07.08-20.33.05:277][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.07.08-20.33.08:397][187]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.08-20.33.10:110][274]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.08-20.33.10:226][281]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.08-20.33.10:233][281]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.08-20.33.10:233][281]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.08-20.33.10:234][281]PIE: New page: PIE session: FirstPersonExampleMap (Jul 8, 2019, 6:33:10 AM)
+[2019.07.08-20.33.10:235][281]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.07.08-20.33.10:239][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003136s)
+[2019.07.08-20.33.10:239][281]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.07.08-20.33.10:240][281]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2019.07.08-20.33.10:240][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.005078s)
+[2019.07.08-20.33.10:261][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2019.07.08-20.33.10:263][281]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2019.07.08-20.33.10:263][281]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2019.07.08-20.33.10:263][281]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2019.07.08-20.33.10:263][281]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2019.07.08-20.33.10:263][281]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2019.07.08-20.33.10:263][281]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2019.07.08-20.33.10:263][281]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2019.07.08-20.33.10:263][281]LogAudioMixer: Display: Initializing audio mixer.
+[2019.07.08-20.33.10:263][281]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2019.07.08-20.33.10:530][281]LogInit: FAudioDevice initialized.
+[2019.07.08-20.33.10:536][281]LogLoad: Game class is 'MyChunkerGameMode_C'
+[2019.07.08-20.33.10:538][281]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.07.08-13.33.10
+[2019.07.08-20.33.10:540][281]LogWorld: Bringing up level for play took: 0.002013
+[2019.07.08-20.33.10:670][281]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.07.08-20.33.10:674][281]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.442
+[2019.07.08-20.33.10:675][281]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.08-20.33.10:703][282]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.100000 > MaxSimulationTimeStep (0.050) for 'PlayerCharacter_C_0', movement 'Walking'
+[2019.07.08-20.33.10:704][282]LogTemp: Warning: Spawning new chunk at X=-1 Y=-1
+[2019.07.08-20.33.10:712][282]LogTemp: Warning: Spawning new chunk at X=-1 Y=0
+[2019.07.08-20.33.10:735][282]LogTemp: Warning: Spawning new chunk at X=-1 Y=1
+[2019.07.08-20.33.10:758][282]LogTemp: Warning: Spawning new chunk at X=0 Y=-1
+[2019.07.08-20.33.10:781][282]LogTemp: Warning: Spawning new chunk at X=0 Y=1
+[2019.07.08-20.33.10:803][282]LogTemp: Warning: Spawning new chunk at X=1 Y=-1
+[2019.07.08-20.33.10:826][282]LogTemp: Warning: Spawning new chunk at X=1 Y=0
+[2019.07.08-20.33.10:849][282]LogTemp: Warning: Spawning new chunk at X=1 Y=1
+[2019.07.08-20.33.11:226][296]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=216.08 Y=165.12 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.70 Z=0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (9 other events since notify)
+[2019.07.08-20.33.12:242][357]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=238.37 Y=182.15 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (60 other events since notify)
+[2019.07.08-20.33.13:242][417]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=238.37 Y=182.15 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (59 other events since notify)
+[2019.07.08-20.33.14:242][477]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=238.37 Y=182.15 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (59 other events since notify)
+[2019.07.08-20.33.15:258][538]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=238.37 Y=182.15 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (60 other events since notify)
+[2019.07.08-20.33.16:259][598]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=27.21 Y=20.79 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (29 other events since notify)
+[2019.07.08-20.33.17:275][659]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=238.37 Y=182.15 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (60 other events since notify)
+[2019.07.08-20.33.18:275][719]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=238.37 Y=182.15 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (59 other events since notify)
+[2019.07.08-20.33.19:292][780]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=238.37 Y=182.15 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (60 other events since notify)
+[2019.07.08-20.33.20:292][840]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=238.37 Y=182.15 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (59 other events since notify)
+[2019.07.08-20.33.21:442][909]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=-26.18 Y=22.12 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=0.73 Y=0.69 Z=0.00 PenetrationDepth:67.940 Actor:hall04_C_34 Component:StaticMeshComponent6 BoneName:None (36 other events since notify)
+[2019.07.08-20.33.22:443][969]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=-229.16 Y=193.62 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=0.73 Y=0.69 Z=0.00 PenetrationDepth:67.940 Actor:hall04_C_34 Component:StaticMeshComponent6 BoneName:None (59 other events since notify)
+[2019.07.08-20.33.23:459][ 30]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=-229.16 Y=193.62 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=0.73 Y=0.69 Z=0.00 PenetrationDepth:67.940 Actor:hall04_C_34 Component:StaticMeshComponent6 BoneName:None (60 other events since notify)
+[2019.07.08-20.33.24:476][ 91]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=-229.16 Y=193.62 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=0.73 Y=0.69 Z=0.00 PenetrationDepth:67.940 Actor:hall04_C_34 Component:StaticMeshComponent6 BoneName:None (60 other events since notify)
+[2019.07.08-20.33.25:492][152]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=-229.16 Y=193.62 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=0.73 Y=0.69 Z=0.00 PenetrationDepth:67.940 Actor:hall04_C_34 Component:StaticMeshComponent6 BoneName:None (60 other events since notify)
+[2019.07.08-20.33.26:592][218]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=3.74 Y=33.97 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=0.71 Y=-0.71 Z=-0.00 PenetrationDepth:67.938 Actor:hall04_C_35 Component:StaticMeshComponent6 BoneName:None (35 other events since notify)
+[2019.07.08-20.33.27:609][279]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=32.80 Y=298.20 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=0.71 Y=-0.71 Z=0.00 PenetrationDepth:67.939 Actor:hall04_C_35 Component:StaticMeshComponent6 BoneName:None (60 other events since notify)
+[2019.07.08-20.33.28:609][339]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=32.80 Y=298.20 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=0.71 Y=-0.71 Z=0.00 PenetrationDepth:67.939 Actor:hall04_C_35 Component:StaticMeshComponent6 BoneName:None (59 other events since notify)
+[2019.07.08-20.33.29:625][400]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=32.80 Y=298.20 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=0.71 Y=-0.71 Z=0.00 PenetrationDepth:67.939 Actor:hall04_C_35 Component:StaticMeshComponent6 BoneName:None (60 other events since notify)
+[2019.07.08-20.33.30:625][460]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=32.80 Y=298.20 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=0.71 Y=-0.71 Z=0.00 PenetrationDepth:67.939 Actor:hall04_C_35 Component:StaticMeshComponent6 BoneName:None (59 other events since notify)
+[2019.07.08-20.33.31:725][526]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=26.92 Y=20.57 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.70 Z=-0.00 PenetrationDepth:68.017 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (34 other events since notify)
+[2019.07.08-20.33.32:726][586]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=238.37 Y=182.15 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (59 other events since notify)
+[2019.07.08-20.33.33:742][647]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=238.37 Y=182.15 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (60 other events since notify)
+[2019.07.08-20.33.34:742][707]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=238.37 Y=182.15 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (59 other events since notify)
+[2019.07.08-20.33.35:758][768]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=238.37 Y=182.15 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (60 other events since notify)
+[2019.07.08-20.33.36:809][831]LogTemp: Warning: Spawning new chunk at X=-2 Y=-1
+[2019.07.08-20.33.36:815][831]LogTemp: Warning: Spawning new chunk at X=-2 Y=0
+[2019.07.08-20.33.36:822][831]LogTemp: Warning: Spawning new chunk at X=-2 Y=1
+[2019.07.08-20.33.36:875][835]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=2.11 Y=19.18 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=0.71 Y=-0.71 Z=0.00 PenetrationDepth:67.938 Actor:hall04_C_35 Component:StaticMeshComponent6 BoneName:None (35 other events since notify)
+[2019.07.08-20.33.37:893][896]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=32.80 Y=298.20 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=0.71 Y=-0.71 Z=0.00 PenetrationDepth:67.939 Actor:hall04_C_35 Component:StaticMeshComponent6 BoneName:None (60 other events since notify)
+[2019.07.08-20.33.38:909][957]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=32.80 Y=298.20 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=0.71 Y=-0.71 Z=0.00 PenetrationDepth:67.939 Actor:hall04_C_35 Component:StaticMeshComponent6 BoneName:None (60 other events since notify)
+[2019.07.08-20.33.39:909][ 17]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=32.80 Y=298.20 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=0.71 Y=-0.71 Z=0.00 PenetrationDepth:67.939 Actor:hall04_C_35 Component:StaticMeshComponent6 BoneName:None (59 other events since notify)
+[2019.07.08-20.33.40:926][ 78]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=32.80 Y=298.20 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=0.71 Y=-0.71 Z=0.00 PenetrationDepth:67.939 Actor:hall04_C_35 Component:StaticMeshComponent6 BoneName:None (60 other events since notify)
+[2019.07.08-20.33.42:025][144]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=27.17 Y=20.76 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.70 Z=-0.00 PenetrationDepth:68.017 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (34 other events since notify)
+[2019.07.08-20.33.43:026][204]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=238.37 Y=182.15 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (59 other events since notify)
+[2019.07.08-20.33.44:042][265]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=238.37 Y=182.15 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (60 other events since notify)
+[2019.07.08-20.33.45:042][325]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=238.37 Y=182.15 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (59 other events since notify)
+[2019.07.08-20.33.46:059][386]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=238.37 Y=182.15 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (60 other events since notify)
+[2019.07.08-20.33.47:125][450]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=3.68 Y=33.44 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=0.71 Y=-0.71 Z=0.00 PenetrationDepth:67.938 Actor:hall04_C_35 Component:StaticMeshComponent6 BoneName:None (33 other events since notify)
+[2019.07.08-20.33.48:126][510]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=32.80 Y=298.20 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=0.71 Y=-0.71 Z=0.00 PenetrationDepth:67.939 Actor:hall04_C_35 Component:StaticMeshComponent6 BoneName:None (59 other events since notify)
+[2019.07.08-20.33.49:126][570]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=32.80 Y=298.20 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=0.71 Y=-0.71 Z=0.00 PenetrationDepth:67.939 Actor:hall04_C_35 Component:StaticMeshComponent6 BoneName:None (59 other events since notify)
+[2019.07.08-20.33.50:142][631]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=32.80 Y=298.20 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=0.71 Y=-0.71 Z=0.00 PenetrationDepth:67.939 Actor:hall04_C_35 Component:StaticMeshComponent6 BoneName:None (60 other events since notify)
+[2019.07.08-20.33.51:142][691]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=32.80 Y=298.20 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=0.71 Y=-0.71 Z=0.00 PenetrationDepth:67.939 Actor:hall04_C_35 Component:StaticMeshComponent6 BoneName:None (59 other events since notify)
+[2019.07.08-20.33.52:276][759]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=26.26 Y=20.07 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.70 Z=-0.00 PenetrationDepth:68.017 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (36 other events since notify)
+[2019.07.08-20.33.53:275][819]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=238.37 Y=182.15 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (59 other events since notify)
+[2019.07.08-20.33.54:275][879]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=238.37 Y=182.15 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (59 other events since notify)
+[2019.07.08-20.33.55:292][940]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=238.37 Y=182.15 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (60 other events since notify)
+[2019.07.08-20.33.56:309][  1]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=238.37 Y=182.15 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (60 other events since notify)
+[2019.07.08-20.33.57:442][ 69]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=27.14 Y=20.74 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (36 other events since notify)
+[2019.07.08-20.33.58:458][130]LogCharacterMovement: B_Skeleton_2 is stuck and failed to move! Velocity: X=238.37 Y=182.15 Z=0.00 Location: X=-600.00 Y=1800.00 Z=202.95 Normal: X=-0.71 Y=0.71 Z=-0.00 PenetrationDepth:67.942 Actor:hall04_C_39 Component:StaticMeshComponent6 BoneName:None (60 other events since notify)
+[2019.07.08-20.33.59:343][183]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2019.07.08-20.33.59:343][183]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2019.07.08-20.33.59:343][183]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.07.08-20.33.59:344][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.08-20.33.59:344][183]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2019.07.08-20.33.59:409][183]LogCore: === Critical error: ===
+Unhandled Exception: SIGSEGV: unaligned memory access (SIMD vectors?)
+
+[2019.07.08-20.33.59:409][183]LogCore: Fatal error!
+
+0x00007f02cb5e8f25 libUE4Editor-Engine.so!physx::shdfnd::atomicDecrement(int volatile*) [D:/Build/++Fortnite/Sync/Engine/Source/ThirdParty/PhysX3/PxShared/src/foundation/src/unix/PsUnixAtomic.cpp:60]
+0x00007f02cb25c69a libUE4Editor-Engine.so!physx::NpShape::~NpShape() [D:/Build/++Fortnite/Sync/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Source/PhysX/src/NpShape.cpp:77]
+0x00007f02cb31abb0 libUE4Editor-Engine.so!physx::NpDestroy(physx::Scb::Base&) [D:/Build/++Fortnite/Sync/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Source/PhysX/src/NpFactory.cpp:1235]
+0x00007f02cb27210a libUE4Editor-Engine.so!ScSceneFns<physx::Scb::Body>::remove(physx::Sc::Scene&, physx::Scb::Body&, bool) [D:/Build/++Fortnite/Sync/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Source/PhysX/src/buffering/ScbScene.cpp:262]
+0x00007f02cb26aaa7 libUE4Editor-Engine.so!void physx::Scb::Scene::remove<physx::Scb::Body>(physx::Scb::Body&, physx::Scb::ObjectTracker&, bool) [D:/Build/++Fortnite/Sync/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Source/PhysX/src/buffering/ScbScene.cpp:414]
+0x00007f02cb26a861 libUE4Editor-Engine.so!physx::Scb::Scene::removeActor(physx::Scb::Body&, bool, bool) [D:/Build/++Fortnite/Sync/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Source/PhysX/src/buffering/ScbScene.cpp:605]
+0x00007f02cb32a24e libUE4Editor-Engine.so!physx::NpRigidDynamic::release() [D:/Build/++Fortnite/Sync/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Source/PhysX/src/NpRigidDynamic.cpp:62]
+0x00007f02ca88e8c9 libUE4Editor-Engine.so!TermBodyHelper(FPhysScene_PhysX*, physx::PxRigidActor*&, bool) [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/PhysicsEngine/PhysicsInterfacePhysX.cpp:177]
+0x00007f02ca812007 libUE4Editor-Engine.so!FBodyInstance::TermBody(bool) [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/PhysicsEngine/BodyInstance.cpp:1275]
+0x00007f02c9ff5a09 libUE4Editor-Engine.so!UPrimitiveComponent::OnDestroyPhysicsState() [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/Components/PrimitiveComponent.cpp:794]
+0x00007f02ca0b7c29 libUE4Editor-Engine.so!UStaticMeshComponent::OnDestroyPhysicsState() [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/Components/StaticMeshComponent.cpp:614]
+0x00007f02c9f34ac7 libUE4Editor-Engine.so!UActorComponent::DestroyPhysicsState() [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/Components/ActorComponent.cpp:1270]
+0x00007f02c9f2c2f6 libUE4Editor-Engine.so!UActorComponent::ExecuteUnregisterEvents() [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/Components/ActorComponent.cpp:1299]
+0x00007f02c9f32f6a libUE4Editor-Engine.so!UActorComponent::UnregisterComponent() [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/Components/ActorComponent.cpp:1097]
+0x00007f02c9bd9a94 libUE4Editor-Engine.so!AActor::UnregisterAllComponents(bool) [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/Actor.cpp:4242]
+0x00007f02ca4195ab libUE4Editor-Engine.so!ULevel::ClearLevelComponents() [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/Level.cpp:706]
+0x00007f02cae97950 libUE4Editor-Engine.so!UWorld::ClearWorldComponents() [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/World.cpp:1657]
+0x00007f02cae967d1 libUE4Editor-Engine.so!UWorld::CleanupWorld(bool, bool, UWorld*) [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/World.cpp:4006]
+0x00007f02c501dece libUE4Editor-UnrealEd.so!UEditorEngine::TeardownPlaySession(FWorldContext&) [/games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/PlayLevel.cpp:755]
+0x00007f02c501a32e libUE4Editor-UnrealEd.so!UEditorEngine::EndPlayMap() [/games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/PlayLevel.cpp:307]
+0x00007f02c49be6b2 libUE4Editor-UnrealEd.so!UEditorEngine::Tick(float, bool) [/games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/EditorEngine.cpp:1885]
+0x00007f02c538ebc2 libUE4Editor-UnrealEd.so!UUnrealEdEngine::Tick(float, bool) [/games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/UnrealEdEngine.cpp:400]
+0x000000000023e204 UE4Editor!FEngineLoop::Tick() [/games/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:3961]
+0x0000000000248d33 UE4Editor!GuardedMain(char16_t const*) [/games/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:170]
+0x00007f02c35bc149 libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*)) [/games/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:243]
+0x00007f02c2c43b97 libc.so.6!__libc_start_main(+0xe6)
+0x0000000000230029 UE4Editor!_start()
+
+[2019.07.08-20.33.59:419][183]LogExit: Executing StaticShutdownAfterError
+[2019.07.08-20.33.59:431][183]LogCore: Warning: Unable to statfs('/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Crashes/crashinfo-Labarynth-pid-10844-202EC19A08D703A8EEEEB2CA5A3802B5/Labarynth.log'): errno=2 (No such file or directory)

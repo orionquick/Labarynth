@@ -87,7 +87,7 @@ struct path
     }
 };
 
-bool makeChunk(vector<vector<char>>& grid, vector<room>& rooms, int l, int t, int r, int b)
+bool makeChunk(vector<vector<char>>& grid, vector<room>& rooms, int numRooms, int l, int t, int r, int b, bool backup=false)
 {
     //clear grid
     for(auto& row : grid)
@@ -96,177 +96,209 @@ bool makeChunk(vector<vector<char>>& grid, vector<room>& rooms, int l, int t, in
         row.resize(CHUNK_DIM);
     }
 
-    for(int i = 0; i < CHUNK_DIM - 1; i++)
-    {
-        for(int j = 0; j < CHUNK_DIM - 1; j++)
-        {
-            if(grid[i][j])
-                UE_LOG(LogTemp, Warning, TEXT("YOU FUCKED UP"));
-        }   
-    }
-
     //place hallways at entrances
     grid[l][CHUNK_DIM - 1] = 'H';
     grid[r][0] = 'H';
     grid[CHUNK_DIM - 1][t] = 'H';
     grid[0][b] = 'H';
 
-    //determine if 1 or 2 rooms in this chunk
-    int numRooms = rand() % 4 + 1;
     rooms.clear();
-    rooms.resize(numRooms);
-
-    for(room& iRoom : rooms)
+    //backup generator does not place any rooms
+    if(!backup)
     {
-        //find size of room
-        int roomChance = rand() % 100;
-        
-        if(roomChance < 20) //20%
-        {
-            iRoom.sizex = 1;
-            iRoom.sizey = 2;
-        }
-        else if(roomChance < 40) //20%
-        {
-            iRoom.sizex = 2;
-            iRoom.sizey = 1;
-        }
-        else if(roomChance < 70) //30%
-        {
-            iRoom.sizex = 2;
-            iRoom.sizey = 2;
-        }
-        else if(roomChance < 80) //10%
-        {
-            iRoom.sizex = 2;
-            iRoom.sizey = 3;
-        }
-        else if(roomChance < 90) //10%
-        {
-            iRoom.sizex = 3;
-            iRoom.sizey = 2;
-        }
-        else //10%
-        {
-            iRoom.sizex = 3;
-            iRoom.sizey = 3;
-        }
+        rooms.resize(numRooms);
 
-        //spawn into chunk
-        vector<point> possibleLocs;
-
-        //check each root position in the chunk
-        for(int x = 0; x < CHUNK_DIM - iRoom.sizex - 1; x++)
+        for(room& iRoom : rooms)
         {
-            for(int y = 0; y < CHUNK_DIM - iRoom.sizey - 1; y++)
+            //find size of room
+            int roomChance = rand() % 100;
+            
+            if(roomChance < 20) //20%
             {
-                bool occupied = false;
-                //check each room pos for emptiness
-                for(int roomx = 0; roomx < iRoom.sizex; roomx++)
+                iRoom.sizex = 1;
+                iRoom.sizey = 2;
+            }
+            else if(roomChance < 40) //20%
+            {
+                iRoom.sizex = 2;
+                iRoom.sizey = 1;
+            }
+            else if(roomChance < 70) //30%
+            {
+                iRoom.sizex = 2;
+                iRoom.sizey = 2;
+            }
+            else if(roomChance < 80) //10%
+            {
+                iRoom.sizex = 2;
+                iRoom.sizey = 3;
+            }
+            else if(roomChance < 90) //10%
+            {
+                iRoom.sizex = 3;
+                iRoom.sizey = 2;
+            }
+            else //10%
+            {
+                iRoom.sizex = 3;
+                iRoom.sizey = 3;
+            }
+
+            //spawn into chunk
+            vector<point> possibleLocs;
+
+            //check each root position in the chunk
+            for(int x = 0; x < CHUNK_DIM - iRoom.sizex - 1; x++)
+            {
+                for(int y = 0; y < CHUNK_DIM - iRoom.sizey - 1; y++)
                 {
-                    for(int roomy = 0; roomy < iRoom.sizey; roomy++)
+                    bool occupied = false;
+                    //check each room pos for emptiness
+                    for(int roomx = 0; roomx < iRoom.sizex; roomx++)
                     {
-                        if(grid[y + roomy][x + roomx])
-                            occupied = true;
+                        for(int roomy = 0; roomy < iRoom.sizey; roomy++)
+                        {
+                            if(grid[y + roomy][x + roomx])
+                                occupied = true;
+                        }
+                    }
+
+                    //if none are filled, add to possible locations
+                    if(!occupied)
+                        possibleLocs.push_back(point(x, y));
+                }
+            }
+
+            //choose a location
+            if(possibleLocs.size() == 0)
+            {
+                return true;
+            }
+            point roomLoc = possibleLocs[rand() % possibleLocs.size()];
+            iRoom.location = roomLoc;
+
+            //add R characters to the graph
+            for(int roomx = 0; roomx < iRoom.sizex; roomx++)
+            {
+                for(int roomy = 0; roomy < iRoom.sizey; roomy++)
+                {
+                    grid[roomLoc.y + roomy][roomLoc.x + roomx] = 'R';
+                }
+            }
+
+            //find all possible door locations
+            vector<point> doorLocs;
+
+            //spaces on left side
+            if(iRoom.location.x != 0)
+            {
+                for(int y = iRoom.location.y; y < iRoom.location.y + iRoom.sizey; y++)
+                {
+                    if(!grid[y][iRoom.location.x - 1])
+                    {
+                        doorLocs.push_back(point(iRoom.location.x - 1, y));
                     }
                 }
-
-                //if none are filled, add to possible locations
-                if(!occupied)
-                    possibleLocs.push_back(point(x, y));
             }
-        }
-
-        //choose a location
-        if(possibleLocs.size() == 0)
-        {
-            return true;
-        }
-        point roomLoc = possibleLocs[rand() % possibleLocs.size()];
-        iRoom.location = roomLoc;
-
-        //add R characters to the graph
-        for(int roomx = 0; roomx < iRoom.sizex; roomx++)
-        {
-            for(int roomy = 0; roomy < iRoom.sizey; roomy++)
+            
+            //spaces on right side
+            if(iRoom.location.x + iRoom.sizex != CHUNK_DIM)
             {
-                grid[roomLoc.y + roomy][roomLoc.x + roomx] = 'R';
-            }
-        }
-
-        //find all possible door locations
-        vector<point> doorLocs;
-
-        //spaces on left side
-        if(iRoom.location.x != 0)
-        {
-            for(int y = iRoom.location.y; y < iRoom.location.y + iRoom.sizey; y++)
-            {
-                if(!grid[y][iRoom.location.x - 1])
+                for(int y = iRoom.location.y; y < iRoom.location.y + iRoom.sizey; y++)
                 {
-                    doorLocs.push_back(point(iRoom.location.x - 1, y));
+                    if(!grid[y][iRoom.location.x + iRoom.sizex])
+                    {
+                        doorLocs.push_back(point(iRoom.location.x + iRoom.sizex, y));
+                    }
                 }
             }
-        }
-        
-        //spaces on right side
-        if(iRoom.location.x + iRoom.sizex != CHUNK_DIM)
-        {
-            for(int y = iRoom.location.y; y < iRoom.location.y + iRoom.sizey; y++)
+            
+            //spaces on bottom side
+            if(iRoom.location.y != 0)
             {
-                if(!grid[y][iRoom.location.x + iRoom.sizex])
+                for(int x = iRoom.location.x; x < iRoom.location.x + iRoom.sizex; x++)
                 {
-                    doorLocs.push_back(point(iRoom.location.x + iRoom.sizex, y));
+                    if(!grid[iRoom.location.y - 1][x])
+                    {
+                        doorLocs.push_back(point(x, iRoom.location.y - 1));
+                    }
                 }
             }
-        }
-        
-        //spaces on bottom side
-        if(iRoom.location.y != 0)
-        {
-            for(int x = iRoom.location.x; x < iRoom.location.x + iRoom.sizex; x++)
+
+            //spaces on top side
+            if(iRoom.location.y + iRoom.sizey != CHUNK_DIM)
             {
-                if(!grid[iRoom.location.y - 1][x])
+                for(int x = iRoom.location.x; x < iRoom.location.x + iRoom.sizex; x++)
                 {
-                    doorLocs.push_back(point(x, iRoom.location.y - 1));
+                    if(!grid[iRoom.location.y + iRoom.sizey][x])
+                    {
+                        doorLocs.push_back(point(x, iRoom.location.y + iRoom.sizey));
+                    }
                 }
+            }
+
+            //choose door locations
+            if(doorLocs.size() < 2)
+            {
+                return true;
+            }
+            int firstIndex = rand() % doorLocs.size();
+            point firstDoor = doorLocs[firstIndex];
+            doorLocs.erase(doorLocs.begin() + firstIndex);
+            iRoom.door1 = firstDoor;
+            grid[firstDoor.y][firstDoor.x] = 'D';
+
+            if(iRoom.sizex == 3 || iRoom.sizey == 3)
+            {
+                //Large room, two doors
+                iRoom.two_doors = true;
+                int secondIndex = rand() % doorLocs.size();
+                point secondDoor = doorLocs[secondIndex];
+                iRoom.door2 = secondDoor;
+                grid[secondDoor.y][secondDoor.x] = 'D';
+            }
+
+            
+        }
+    }
+
+    if(backup)
+    {
+        //simply trace a path from left to right and top to bottom
+        point left(CHUNK_DIM - 1, l);
+        point right(0, r);
+        point top(t, CHUNK_DIM - 1);
+        point bottom(b, 0);
+
+        path l_to_r;
+        l_to_r.start = left;
+        l_to_r.end = right;
+
+        path t_to_b;
+        t_to_b.start = top;
+        t_to_b.end = bottom;
+
+        //try all combinations of x_then_y to find valid path
+        for(int i = 0; i < 4; i++)
+        {
+            l_to_r.x_then_y = (i % 2);
+            t_to_b.x_then_y = (i / 2);
+            l_to_r.length = 0;
+            t_to_b.length = 0;
+
+            l_to_r.findOnGrid(grid, false);
+            t_to_b.findOnGrid(grid, false);
+
+            if(l_to_r.length != -1 && t_to_b.length != -1)
+            {
+                //valid path
+                l_to_r.findOnGrid(grid, true);
+                t_to_b.findOnGrid(grid, true);
+                break;
             }
         }
 
-        //spaces on top side
-        if(iRoom.location.y + iRoom.sizey != CHUNK_DIM)
-        {
-            for(int x = iRoom.location.x; x < iRoom.location.x + iRoom.sizex; x++)
-            {
-                if(!grid[iRoom.location.y + iRoom.sizey][x])
-                {
-                    doorLocs.push_back(point(x, iRoom.location.y + iRoom.sizey));
-                }
-            }
-        }
-
-        //choose door locations
-        if(doorLocs.size() < 2)
-        {
-            return true;
-        }
-        int firstIndex = rand() % doorLocs.size();
-        point firstDoor = doorLocs[firstIndex];
-        doorLocs.erase(doorLocs.begin() + firstIndex);
-        iRoom.door1 = firstDoor;
-        grid[firstDoor.y][firstDoor.x] = 'D';
-
-        if(iRoom.sizex == 3 || iRoom.sizey == 3)
-        {
-            //Large room, two doors
-            iRoom.two_doors = true;
-            int secondIndex = rand() % doorLocs.size();
-            point secondDoor = doorLocs[secondIndex];
-            iRoom.door2 = secondDoor;
-            grid[secondDoor.y][secondDoor.x] = 'D';
-        }
-
-        
+        return false;
     }
 
     //printGrid(grid);
@@ -491,6 +523,8 @@ AChunk::AChunk()
 	textMat = TextMaterial.Object;
 }
 
+
+
 void AChunk::SetHashAndGenerate(int32 x, int32 y, int32 salt, std::vector<int32> ltrb)
 {
 	//hash location
@@ -506,6 +540,9 @@ void AChunk::SetHashAndGenerate(int32 x, int32 y, int32 salt, std::vector<int32>
     characterLayout = std::vector<std::vector<char>>(CHUNK_DIM, std::vector<char>(CHUNK_DIM, 0));
     bool failed = true;
     int iterator = 0;
+    //determine number of rooms before generation
+    //constant across all tries
+    int numRooms = rand() % 3 + 1;
     while(failed && iterator < 1000)
     {
         ltrbEntrances = ltrb;
@@ -517,14 +554,24 @@ void AChunk::SetHashAndGenerate(int32 x, int32 y, int32 salt, std::vector<int32>
             }
         }
 
-        failed = makeChunk(characterLayout, roomSpecs, ltrbEntrances[(int32) SIDE::LEFT], ltrbEntrances[(int32) SIDE::TOP], ltrbEntrances[(int32) SIDE::RIGHT], ltrbEntrances[(int32) SIDE::BOTTOM]);
+        failed = makeChunk(characterLayout, roomSpecs, numRooms, ltrbEntrances[(int32) SIDE::LEFT], ltrbEntrances[(int32) SIDE::TOP], ltrbEntrances[(int32) SIDE::RIGHT], ltrbEntrances[(int32) SIDE::BOTTOM]);
+        UE_LOG(LogTemp, Warning, TEXT("Try X: %d Y: %d"), x, y);
         iterator++;
     }
 
     if(failed)
     {
-        UE_LOG(LogTemp, Warning, TEXT("Failed to generate valid chunk X: %d Y: %d"), x, y);
-        characterLayout.clear();
+        ltrbEntrances = ltrb;
+        for(int& edge : ltrbEntrances)
+        {
+            if(edge == -1)
+            {
+                edge = rand() % (CHUNK_DIM - 2) + 1;
+            }
+        }
+        UE_LOG(LogTemp, Warning, TEXT("Backup Chunk X: %d Y: %d"), x, y);
+        //backup boring chunk gen that cannot fail
+        makeChunk(characterLayout, roomSpecs, numRooms, ltrbEntrances[(int32) SIDE::LEFT], ltrbEntrances[(int32) SIDE::TOP], ltrbEntrances[(int32) SIDE::RIGHT], ltrbEntrances[(int32) SIDE::BOTTOM], true);
     }
 }
 
@@ -621,8 +668,6 @@ void AChunk::OnConstruction(const FTransform& Transform)
         {
             for(int y = 0; y < CHUNK_DIM; y++)
             {
-                
-
                 if(characterLayout[y][x] == 'H')
                 {
                     //fill array with status of adjacents

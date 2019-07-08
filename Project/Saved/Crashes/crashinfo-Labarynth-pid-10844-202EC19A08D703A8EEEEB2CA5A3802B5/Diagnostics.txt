@@ -1,0 +1,46 @@
+Generating report for minidump
+
+Application version 4.22.3.0
+ ... built from changelist 0
+
+OS version Linux 4.15.0-54-generic (network name: donovan-FR)
+Running 4 x86_64 processors (4 logical cores)
+Exception was "SIGSEGV: unaligned memory access (SIMD vectors?)"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Engine.so!physx::shdfnd::atomicDecrement(int volatile*) [D:/Build/++Fortnite/Sync/Engine/Source/ThirdParty/PhysX3/PxShared/src/foundation/src/unix/PsUnixAtomic.cpp:60]
+libUE4Editor-Engine.so!physx::NpShape::~NpShape() [D:/Build/++Fortnite/Sync/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Source/PhysX/src/NpShape.cpp:77]
+libUE4Editor-Engine.so!physx::NpDestroy(physx::Scb::Base&) [D:/Build/++Fortnite/Sync/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Source/PhysX/src/NpFactory.cpp:1235]
+libUE4Editor-Engine.so!ScSceneFns<physx::Scb::Body>::remove(physx::Sc::Scene&, physx::Scb::Body&, bool) [D:/Build/++Fortnite/Sync/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Source/PhysX/src/buffering/ScbScene.cpp:262]
+libUE4Editor-Engine.so!void physx::Scb::Scene::remove<physx::Scb::Body>(physx::Scb::Body&, physx::Scb::ObjectTracker&, bool) [D:/Build/++Fortnite/Sync/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Source/PhysX/src/buffering/ScbScene.cpp:414]
+libUE4Editor-Engine.so!physx::Scb::Scene::removeActor(physx::Scb::Body&, bool, bool) [D:/Build/++Fortnite/Sync/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Source/PhysX/src/buffering/ScbScene.cpp:605]
+libUE4Editor-Engine.so!physx::NpRigidDynamic::release() [D:/Build/++Fortnite/Sync/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Source/PhysX/src/NpRigidDynamic.cpp:62]
+libUE4Editor-Engine.so!TermBodyHelper(FPhysScene_PhysX*, physx::PxRigidActor*&, bool) [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/PhysicsEngine/PhysicsInterfacePhysX.cpp:177]
+libUE4Editor-Engine.so!FBodyInstance::TermBody(bool) [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/PhysicsEngine/BodyInstance.cpp:1275]
+libUE4Editor-Engine.so!UPrimitiveComponent::OnDestroyPhysicsState() [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/Components/PrimitiveComponent.cpp:794]
+libUE4Editor-Engine.so!UStaticMeshComponent::OnDestroyPhysicsState() [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/Components/StaticMeshComponent.cpp:614]
+libUE4Editor-Engine.so!UActorComponent::DestroyPhysicsState() [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/Components/ActorComponent.cpp:1270]
+libUE4Editor-Engine.so!UActorComponent::ExecuteUnregisterEvents() [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/Components/ActorComponent.cpp:1299]
+libUE4Editor-Engine.so!UActorComponent::UnregisterComponent() [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/Components/ActorComponent.cpp:1097]
+libUE4Editor-Engine.so!AActor::UnregisterAllComponents(bool) [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/Actor.cpp:4242]
+libUE4Editor-Engine.so!ULevel::ClearLevelComponents() [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/Level.cpp:706]
+libUE4Editor-Engine.so!UWorld::ClearWorldComponents() [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/World.cpp:1657]
+libUE4Editor-Engine.so!UWorld::CleanupWorld(bool, bool, UWorld*) [/games/UnrealEngine/Engine/Source/Runtime/Engine/Private/World.cpp:4006]
+libUE4Editor-UnrealEd.so!UEditorEngine::TeardownPlaySession(FWorldContext&) [/games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/PlayLevel.cpp:755]
+libUE4Editor-UnrealEd.so!UEditorEngine::EndPlayMap() [/games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/PlayLevel.cpp:307]
+libUE4Editor-UnrealEd.so!UEditorEngine::Tick(float, bool) [/games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/EditorEngine.cpp:1885]
+libUE4Editor-UnrealEd.so!UUnrealEdEngine::Tick(float, bool) [/games/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/UnrealEdEngine.cpp:400]
+UE4Editor!FEngineLoop::Tick() [/games/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:3961]
+UE4Editor!GuardedMain(char16_t const*) [/games/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:170]
+libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*)) [/games/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:243]
+libc.so.6!__libc_start_main(+0xe6)
+UE4Editor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
