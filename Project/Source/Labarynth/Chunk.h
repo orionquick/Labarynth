@@ -152,11 +152,8 @@ struct point
 struct room
 {
     point location;
-    point door1;
-    point door2;
-    bool two_doors;
-    int sizex;
-    int sizey;
+    point size;
+    std::vector<point> doors;
 };
 
 UCLASS()
@@ -170,7 +167,7 @@ public:
 
 	// Called after deffered spawn but before loading into world
 	// Adds all subcomponents and sets values
-	void SetHashAndGenerate(int32 x, int32 y, int32 salt, std::vector<int32> ltrb);
+	void SetHashAndGenerate(int32 x, int32 y, int32 salt, std::vector<int32> ltrb, bool isCenter);
 
 	UClass* rotationalRoomEquivalent(int& rotation, std::vector<RSIDE> ltrb);
 

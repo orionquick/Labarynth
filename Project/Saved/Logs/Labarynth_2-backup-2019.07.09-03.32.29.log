@@ -1,0 +1,601 @@
+﻿Log file open, 07/08/19 20:32:12
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Labarynth
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.090740
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin AndroidPermission
+LogInit: Using libcurl 7.48.0-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: Build: ++UE4+Release-4.22-CL-0
+LogInit: Engine Version: 4.22.3-0+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-0+++UE4+Release-4.22
+LogInit: Net CL: 0
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz, GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Jun 27 2019 15:42:35
+LogInit: Compiled with Clang: 7.0.1 (tags/RELEASE_701/final)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  /Game/FirstPersonBP/Maps/FirstPersonExampleMap -game -PIEVIACONSOLE -ResX=640 -ResY=480 -Multiprocess -messaging -SessionName="Play in Standalone Game" -port=2345 -windowed "GameUserSettingsINI=/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/PIEGameUserSettings0.ini" -MultiprocessSaveConfig -MultiprocessOSS -server -log
+LogInit: Base Directory: /games/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.07.09-03.32.14:006][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2019.07.09-03.32.14:006][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.07.09-03.32.14:006][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Engine.ini]
+[2019.07.09-03.32.14:006][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.07.09-03.32.14:006][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Engine.ini]
+[2019.07.09-03.32.14:006][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Engine.ini]
+[2019.07.09-03.32.14:006][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.07.09-03.32.14:006][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.07.09-03.32.14:006][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.07.09-03.32.14:006][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.07.09-03.32.14:006][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.07.09-03.32.14:006][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.07.09-03.32.14:006][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.07.09-03.32.14:006][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.07.09-03.32.14:006][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.07.09-03.32.14:006][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.07.09-03.32.14:006][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.07.09-03.32.14:006][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.07.09-03.32.14:006][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.07.09-03.32.14:006][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Engine.ini]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Engine.ini]
+[2019.07.09-03.32.14:007][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Engine.ini]
+[2019.07.09-03.32.14:007][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.07.09-03.32.14:007][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.09-03.32.14:007][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.07.09-03.32.14:008][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.07.09-03.32.14:008][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.07.09-03.32.14:008][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.07.09-03.32.14:008][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.07.09-03.32.14:008][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.07.09-03.32.14:008][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.07.09-03.32.14:008][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.07.09-03.32.14:008][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.07.09-03.32.14:008][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.07.09-03.32.14:008][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.07.09-03.32.14:008][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.07.09-03.32.14:008][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.07.09-03.32.14:008][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.09-03.32.14:008][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.07.09-03.32.14:008][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.07.09-03.32.14:008][  0]LogLinux: Selected Device Profile: [Linux]
+[2019.07.09-03.32.14:008][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2019.07.09-03.32.14:014][  0]LogHAL: Display: Platform has ~ 4 GB [10413928448 / 4294967296 / 10], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.07.09-03.32.14:014][  0]LogInit: Going up to parent DeviceProfile []
+[2019.07.09-03.32.14:014][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.07.09-03.32.14:014][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Scalability.ini]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.07.09-03.32.14:015][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [/home/donovan/Documents/Unreal Projects/Labarynth/Project/Saved/Config/Linux/Engine.ini]
+[2019.07.09-03.32.14:015][  0]LogConfig: Setting CVar [[g.TimeoutForBlockOnRenderFence:60000]]
+[2019.07.09-03.32.14:015][  0]LogInit: Unix hardware info:
+[2019.07.09-03.32.14:015][  0]LogInit:  - we are not the first instance of this executable
+[2019.07.09-03.32.14:015][  0]LogInit:  - this process' id (pid) is 26057, parent process' id (ppid) is 24375
+[2019.07.09-03.32.14:015][  0]LogInit:  - we are not running under debugger
+[2019.07.09-03.32.14:015][  0]LogInit:  - machine network name is 'donovan-FR'
+[2019.07.09-03.32.14:015][  0]LogInit:  - user name is 'donovan' (donovan)
+[2019.07.09-03.32.14:015][  0]LogInit:  - we're logged in locally
+[2019.07.09-03.32.14:015][  0]LogInit:  - we're running without rendering
+[2019.07.09-03.32.14:015][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz' (signature: 0x306C3)
+[2019.07.09-03.32.14:015][  0]LogInit:  - Number of physical cores available for the process: 4
+[2019.07.09-03.32.14:015][  0]LogInit:  - Number of logical cores available for the process: 4
+[2019.07.09-03.32.14:015][  0]LogInit:  - Cache line size: 64
+[2019.07.09-03.32.14:015][  0]LogInit:  - Memory allocator used: binned2
+[2019.07.09-03.32.14:015][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2019.07.09-03.32.14:015][  0]LogCore: Benchmarking clocks:
+[2019.07.09-03.32.14:015][  0]LogCore:  - CLOCK_MONOTONIC (id=1) can sustain 55442845 (55443K, 55M) calls per second without zero deltas.
+[2019.07.09-03.32.14:015][  0]LogCore:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 2252642 (2253K, 2M) calls per second without zero deltas.
+[2019.07.09-03.32.14:015][  0]LogCore:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 154224892 (154225K, 154M) calls per second with 99.999832% zero deltas.
+[2019.07.09-03.32.14:015][  0]LogCore: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2019.07.09-03.32.14:015][  0]LogInit: Unix-specific commandline switches:
+[2019.07.09-03.32.14:015][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2019.07.09-03.32.14:015][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2019.07.09-03.32.14:015][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2019.07.09-03.32.14:015][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2019.07.09-03.32.14:015][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2019.07.09-03.32.14:015][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2019.07.09-03.32.14:015][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2019.07.09-03.32.14:015][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2019.07.09-03.32.14:015][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2019.07.09-03.32.14:015][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2019.07.09-03.32.14:015][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2019.07.09-03.32.14:016][  0]LogInit:  - Physical RAM available (not considering process quota): 10 GB (9931 MB, 10169852 KB, 10413928448 bytes)
+[2019.07.09-03.32.14:016][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2019.07.09-03.32.14:016][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2019.07.09-03.32.14:183][  0]LogInit: Using OS detected language (en-US).
+[2019.07.09-03.32.14:183][  0]LogInit: Using OS detected locale (en-US).
+[2019.07.09-03.32.14:183][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.07.09-03.32.14:346][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.09-03.32.14:346][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.09-03.32.14:346][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.09-03.32.15:047][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.07.09-03.32.15:216][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.07.09-03.32.15:386][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.07.09-03.32.15:556][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.07.09-03.32.15:727][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.07.09-03.32.15:892][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.07.09-03.32.16:110][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.07.09-03.32.16:110][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.07.09-03.32.16:110][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.07.09-03.32.16:110][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.07.09-03.32.16:110][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.07.09-03.32.16:110][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.07.09-03.32.16:110][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.07.09-03.32.16:110][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.07.09-03.32.16:110][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.07.09-03.32.16:110][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.07.09-03.32.16:110][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.07.09-03.32.16:110][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.07.09-03.32.16:110][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.07.09-03.32.16:110][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.07.09-03.32.16:110][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.07.09-03.32.16:110][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.07.09-03.32.16:110][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.07.09-03.32.16:110][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.07.09-03.32.16:110][  0]LogTargetPlatformManager: Display: Building Assets For Linux
+[2019.07.09-03.32.16:593][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../home/donovan/Documents/Unreal Projects/Labarynth/Project/Intermediate/Shaders/WorkingDirectory/26057/).
+[2019.07.09-03.32.16:593][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../home/donovan/Documents/Unreal Projects/Labarynth/Project/Intermediate/Shaders/tmp/000570D608D703E35E030528322077DB/'.
+[2019.07.09-03.32.16:593][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.07.09-03.32.17:469][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.07.09-03.32.17:556][  0]LogDerivedDataCache: Loaded boot cache 0.09s 95MB ../../../../../home/donovan/Documents/Unreal Projects/Labarynth/Project/DerivedDataCache/Boot.ddc.
+[2019.07.09-03.32.17:557][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../../home/donovan/Documents/Unreal Projects/Labarynth/Project/DerivedDataCache/Boot.ddc
+[2019.07.09-03.32.17:557][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../home/donovan/Documents/Unreal Projects/Labarynth/Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.09-03.32.17:557][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.07.09-03.32.17:557][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.09-03.32.17:557][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2019.07.09-03.32.17:560][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2019.07.09-03.32.17:560][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.07.09-03.32.17:560][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.07.09-03.32.17:560][  0]LogInit: Using OS detected language (en-US).
+[2019.07.09-03.32.17:560][  0]LogInit: Using OS detected locale (en-US).
+[2019.07.09-03.32.17:560][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2019.07.09-03.32.17:560][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2019.07.09-03.32.17:568][  0]LogTextLocalizationManager: Compacting localization data took   7.53ms
+[2019.07.09-03.32.17:575][  0]LogAssetRegistry: FAssetRegistry took 0.0033 seconds to start up
+[2019.07.09-03.32.17:781][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.000362 seconds
+[2019.07.09-03.32.17:861][  0]LogLinux: Selected Device Profile: [Linux]
+[2019.07.09-03.32.18:508][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.07.09-03.32.18:508][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.07.09-03.32.18:508][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.07.09-03.32.18:508][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.07.09-03.32.18:508][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.07.09-03.32.18:508][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.07.09-03.32.18:516][  0]LogNetVersion: Labarynth 1.0.0, NetCL: 0, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1462557434)
+[2019.07.09-03.32.19:001][  0]LogHAL: Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+[2019.07.09-03.32.22:279][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.07.09-03.32.22:284][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.07.09-03.32.23:608][  0]SourceControl: Source control is disabled
+[2019.07.09-03.32.23:609][  0]SourceControl: Source control is disabled
+[2019.07.09-03.32.24:264][  0]SourceControl: Source control is disabled
+[2019.07.09-03.32.28:036][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.07.09-03.32.28:043][  0]LogUObjectArray: 45351 objects as part of root set at end of initial load.
+[2019.07.09-03.32.28:043][  0]LogUObjectAllocator: 7950632 out of 0 bytes used by permanent object pool.
+[2019.07.09-03.32.28:043][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.09-03.32.28:044][  0]LogExit: Preparing to exit.
+[2019.07.09-03.32.28:367][  0]LogExit: Object subsystem successfully closed.
+[2019.07.09-03.32.28:373][  0]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.07.09-03.32.28:373][  0]LogExit: Preparing to exit.
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module AndroidPermission (276)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module SteamVRController (274)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module EditableMesh (272)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module AudioCapture (270)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (268)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (266)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module CableComponent (264)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (262)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (260)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module AppleVisionBlueprintSupport (258)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module AppleVision (256)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (254)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (253)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module GeometryCache (250)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (249)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (246)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module AppleImageUtils (244)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module BackChannel (242)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (240)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module CryptoKeys (238)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module LinearTimecode (236)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module MediaCompositing (234)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module ImgMedia (232)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (230)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (228)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module VariantManagerContent (226)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (224)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (222)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (220)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (218)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module SourceControl (217)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module UObjectPlugin (214)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module KDevelopSourceCodeAccess (212)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module CodeLiteSourceCodeAccess (210)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (208)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module Labarynth (206)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module SignificanceManager (204)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (202)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (200)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (198)
+[2019.07.09-03.32.28:377][  0]LogModuleManager: Shutting down and abandoning module PhysXVehicles (196)
+[2019.07.09-03.32.28:378][  0]LogModuleManager: Shutting down and abandoning module UdpMessaging (194)
+[2019.07.09-03.32.28:478][  0]LogModuleManager: Shutting down and abandoning module TcpMessaging (192)
+[2019.07.09-03.32.29:279][  0]LogModuleManager: Shutting down and abandoning module ActorSequence (190)
+[2019.07.09-03.32.29:279][  0]LogModuleManager: Shutting down and abandoning module Paper2D (188)
+[2019.07.09-03.32.29:279][  0]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (186)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (184)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module FacialAnimation (182)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (180)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module TreeMap (179)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module DataValidation (176)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module AISupportModule (174)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module AnimationSharing (172)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module NullSourceCodeAccess (170)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (168)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module PacketHandler (166)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (164)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (162)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module MediaAssets (160)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module StringTableEditor (158)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (156)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (154)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module FunctionalTesting (152)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module UMG (150)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module UMGEditor (149)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module Sequencer (148)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module MessageLog (145)
+[2019.07.09-03.32.29:280][  0]LogModuleManager: Shutting down and abandoning module EditorStyle (140)
+[2019.07.09-03.32.29:282][  0]LogModuleManager: Shutting down and abandoning module UnrealEd (138)
+[2019.07.09-03.32.29:282][  0]LogModuleManager: Shutting down and abandoning module Messaging (136)
+[2019.07.09-03.32.29:282][  0]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (134)
+[2019.07.09-03.32.29:282][  0]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (132)
+[2019.07.09-03.32.29:282][  0]LogModuleManager: Shutting down and abandoning module AudioMixerSDL (130)
+[2019.07.09-03.32.29:282][  0]LogModuleManager: Shutting down and abandoning module Networking (128)
+[2019.07.09-03.32.29:282][  0]LogModuleManager: Shutting down and abandoning module Core (126)
+[2019.07.09-03.32.29:282][  0]LogModuleManager: Shutting down and abandoning module KismetCompiler (124)
+[2019.07.09-03.32.29:282][  0]LogModuleManager: Shutting down and abandoning module MeshUtilities (122)
+[2019.07.09-03.32.29:282][  0]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (121)
+[2019.07.09-03.32.29:282][  0]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (120)
+[2019.07.09-03.32.29:282][  0]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (119)
+[2019.07.09-03.32.29:282][  0]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (117)
+[2019.07.09-03.32.29:282][  0]LogModuleManager: Shutting down and abandoning module MaterialBaking (113)
+[2019.07.09-03.32.29:282][  0]LogModuleManager: Shutting down and abandoning module DerivedDataCache (108)
+[2019.07.09-03.32.29:562][  0]LogDerivedDataCache: Shutdown
+[2019.07.09-03.32.29:562][  0]LogModuleManager: Shutting down and abandoning module TargetPlatform (106)
+[2019.07.09-03.32.29:562][  0]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (105)
+[2019.07.09-03.32.29:562][  0]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (103)
+[2019.07.09-03.32.29:562][  0]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (101)
+[2019.07.09-03.32.29:562][  0]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (99)
+[2019.07.09-03.32.29:562][  0]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (97)
+[2019.07.09-03.32.29:562][  0]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (95)
+[2019.07.09-03.32.29:562][  0]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (93)
+[2019.07.09-03.32.29:562][  0]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (91)
+[2019.07.09-03.32.29:562][  0]LogModuleManager: Shutting down and abandoning module ImageWrapper (90)
+[2019.07.09-03.32.29:562][  0]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (87)
+[2019.07.09-03.32.29:562][  0]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (85)
+[2019.07.09-03.32.29:562][  0]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (83)
+[2019.07.09-03.32.29:562][  0]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (81)
+[2019.07.09-03.32.29:562][  0]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (79)
+[2019.07.09-03.32.29:566][  0]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (77)
+[2019.07.09-03.32.29:566][  0]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (75)
+[2019.07.09-03.32.29:566][  0]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (73)
+[2019.07.09-03.32.29:566][  0]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (71)
+[2019.07.09-03.32.29:566][  0]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (69)
+[2019.07.09-03.32.29:566][  0]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2019.07.09-03.32.29:566][  0]LogModuleManager: Shutting down and abandoning module NullDrv (64)
+[2019.07.09-03.32.29:566][  0]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2019.07.09-03.32.29:566][  0]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2019.07.09-03.32.29:566][  0]LogHMD: Freeing OpenVRDLLHandle.
+[2019.07.09-03.32.29:566][  0]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (58)
+[2019.07.09-03.32.29:566][  0]LogModuleManager: Shutting down and abandoning module LinuxDeviceProfileSelector (56)
+[2019.07.09-03.32.29:566][  0]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (54)
+[2019.07.09-03.32.29:566][  0]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (52)
+[2019.07.09-03.32.29:567][  0]LogModuleManager: Shutting down and abandoning module XMPP (47)
+[2019.07.09-03.32.29:568][  0]LogModuleManager: Shutting down and abandoning module HTTP (45)
+[2019.07.09-03.32.29:569][  0]LogModuleManager: Shutting down and abandoning module SSL (44)
+[2019.07.09-03.32.29:570][  0]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (40)
+[2019.07.09-03.32.29:570][  0]LogModuleManager: Shutting down and abandoning module DatasmithContent (36)
+[2019.07.09-03.32.29:570][  0]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2019.07.09-03.32.29:571][  0]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2019.07.09-03.32.29:571][  0]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2019.07.09-03.32.29:571][  0]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2019.07.09-03.32.29:571][  0]LogModuleManager: Shutting down and abandoning module RenderCore (26)
+[2019.07.09-03.32.29:571][  0]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2019.07.09-03.32.29:571][  0]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.07.09-03.32.29:571][  0]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.07.09-03.32.29:571][  0]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.07.09-03.32.29:571][  0]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.07.09-03.32.29:571][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.07.09-03.32.29:571][  0]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.07.09-03.32.29:571][  0]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.07.09-03.32.29:571][  0]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.07.09-03.32.29:571][  0]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.07.09-03.32.29:571][  0]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.07.09-03.32.29:571][  0]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.07.09-03.32.29:574][  0]LogExit: Exiting.
+[2019.07.09-03.32.29:576][  0]LogCore: FUnixPlatformMisc::RequestExit(bForce=false, ReturnCode=143)
+[2019.07.09-03.32.29:606][  0]Log file closed, 07/08/19 20:32:29

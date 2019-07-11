@@ -87,6 +87,48 @@ struct path
     }
 };
 
+bool makeCenterChunk(vector<vector<char>>& grid, vector<room>& rooms, int l, int t, int r, int b)
+{
+    //clear grid
+    for(auto& row : grid)
+    {
+        row.clear();
+        row.resize(CHUNK_DIM);
+    }
+
+    //place doors at entrances
+    std::vector<point> doorsLTRB;
+            
+    doorsLTRB.push_back(point(CHUNK_DIM - 1, l));
+    doorsLTRB.push_back(point(t, CHUNK_DIM - 1));
+    doorsLTRB.push_back(point(0, r));
+    doorsLTRB.push_back(point(b, 0));
+
+    rooms.clear();
+    room center;
+
+    for(point d : doorsLTRB)
+    {
+        grid[d.y][d.x] = 'D';
+        center.doors.push_back(d);
+    }
+
+    center.location = point(1, 1);
+    center.size = point(CHUNK_DIM - 2, CHUNK_DIM - 2);
+
+    //add R characters to the graph
+    for(int x = 0; x < center.size.x; x++)
+    {
+        for(int y = 0; y < center.size.y; y++)
+        {
+            grid[center.location.y + y][center.location.x + x] = 'R';
+        }
+    }
+    rooms.push_back(center);
+
+    return false;
+}
+
 bool makeChunk(vector<vector<char>>& grid, vector<room>& rooms, int numRooms, int l, int t, int r, int b, bool backup=false)
 {
     //clear grid
@@ -115,48 +157,48 @@ bool makeChunk(vector<vector<char>>& grid, vector<room>& rooms, int numRooms, in
             
             if(roomChance < 20) //20%
             {
-                iRoom.sizex = 1;
-                iRoom.sizey = 2;
+                iRoom.size.x = 1;
+                iRoom.size.y = 2;
             }
             else if(roomChance < 40) //20%
             {
-                iRoom.sizex = 2;
-                iRoom.sizey = 1;
+                iRoom.size.x = 2;
+                iRoom.size.y = 1;
             }
             else if(roomChance < 70) //30%
             {
-                iRoom.sizex = 2;
-                iRoom.sizey = 2;
+                iRoom.size.x = 2;
+                iRoom.size.y = 2;
             }
             else if(roomChance < 80) //10%
             {
-                iRoom.sizex = 2;
-                iRoom.sizey = 3;
+                iRoom.size.x = 2;
+                iRoom.size.y = 3;
             }
             else if(roomChance < 90) //10%
             {
-                iRoom.sizex = 3;
-                iRoom.sizey = 2;
+                iRoom.size.x = 3;
+                iRoom.size.y = 2;
             }
             else //10%
             {
-                iRoom.sizex = 3;
-                iRoom.sizey = 3;
+                iRoom.size.x = 3;
+                iRoom.size.y = 3;
             }
 
             //spawn into chunk
             vector<point> possibleLocs;
 
             //check each root position in the chunk
-            for(int x = 0; x < CHUNK_DIM - iRoom.sizex - 1; x++)
+            for(int x = 0; x < CHUNK_DIM - iRoom.size.x - 1; x++)
             {
-                for(int y = 0; y < CHUNK_DIM - iRoom.sizey - 1; y++)
+                for(int y = 0; y < CHUNK_DIM - iRoom.size.y - 1; y++)
                 {
                     bool occupied = false;
                     //check each room pos for emptiness
-                    for(int roomx = 0; roomx < iRoom.sizex; roomx++)
+                    for(int roomx = 0; roomx < iRoom.size.x; roomx++)
                     {
-                        for(int roomy = 0; roomy < iRoom.sizey; roomy++)
+                        for(int roomy = 0; roomy < iRoom.size.y; roomy++)
                         {
                             if(grid[y + roomy][x + roomx])
                                 occupied = true;
@@ -178,9 +220,9 @@ bool makeChunk(vector<vector<char>>& grid, vector<room>& rooms, int numRooms, in
             iRoom.location = roomLoc;
 
             //add R characters to the graph
-            for(int roomx = 0; roomx < iRoom.sizex; roomx++)
+            for(int roomx = 0; roomx < iRoom.size.x; roomx++)
             {
-                for(int roomy = 0; roomy < iRoom.sizey; roomy++)
+                for(int roomy = 0; roomy < iRoom.size.y; roomy++)
                 {
                     grid[roomLoc.y + roomy][roomLoc.x + roomx] = 'R';
                 }
@@ -192,7 +234,7 @@ bool makeChunk(vector<vector<char>>& grid, vector<room>& rooms, int numRooms, in
             //spaces on left side
             if(iRoom.location.x != 0)
             {
-                for(int y = iRoom.location.y; y < iRoom.location.y + iRoom.sizey; y++)
+                for(int y = iRoom.location.y; y < iRoom.location.y + iRoom.size.y; y++)
                 {
                     if(!grid[y][iRoom.location.x - 1])
                     {
@@ -202,13 +244,13 @@ bool makeChunk(vector<vector<char>>& grid, vector<room>& rooms, int numRooms, in
             }
             
             //spaces on right side
-            if(iRoom.location.x + iRoom.sizex != CHUNK_DIM)
+            if(iRoom.location.x + iRoom.size.x != CHUNK_DIM)
             {
-                for(int y = iRoom.location.y; y < iRoom.location.y + iRoom.sizey; y++)
+                for(int y = iRoom.location.y; y < iRoom.location.y + iRoom.size.y; y++)
                 {
-                    if(!grid[y][iRoom.location.x + iRoom.sizex])
+                    if(!grid[y][iRoom.location.x + iRoom.size.x])
                     {
-                        doorLocs.push_back(point(iRoom.location.x + iRoom.sizex, y));
+                        doorLocs.push_back(point(iRoom.location.x + iRoom.size.x, y));
                     }
                 }
             }
@@ -216,7 +258,7 @@ bool makeChunk(vector<vector<char>>& grid, vector<room>& rooms, int numRooms, in
             //spaces on bottom side
             if(iRoom.location.y != 0)
             {
-                for(int x = iRoom.location.x; x < iRoom.location.x + iRoom.sizex; x++)
+                for(int x = iRoom.location.x; x < iRoom.location.x + iRoom.size.x; x++)
                 {
                     if(!grid[iRoom.location.y - 1][x])
                     {
@@ -226,36 +268,34 @@ bool makeChunk(vector<vector<char>>& grid, vector<room>& rooms, int numRooms, in
             }
 
             //spaces on top side
-            if(iRoom.location.y + iRoom.sizey != CHUNK_DIM)
+            if(iRoom.location.y + iRoom.size.y != CHUNK_DIM)
             {
-                for(int x = iRoom.location.x; x < iRoom.location.x + iRoom.sizex; x++)
+                for(int x = iRoom.location.x; x < iRoom.location.x + iRoom.size.x; x++)
                 {
-                    if(!grid[iRoom.location.y + iRoom.sizey][x])
+                    if(!grid[iRoom.location.y + iRoom.size.y][x])
                     {
-                        doorLocs.push_back(point(x, iRoom.location.y + iRoom.sizey));
+                        doorLocs.push_back(point(x, iRoom.location.y + iRoom.size.y));
                     }
                 }
             }
 
+            int doorAmt = 1;
+            if(iRoom.size.x == 3 || iRoom.size.y == 3)
+                doorAmt++;
+
             //choose door locations
-            if(doorLocs.size() < 2)
+            if(doorLocs.size() < doorAmt)
             {
                 return true;
             }
-            int firstIndex = rand() % doorLocs.size();
-            point firstDoor = doorLocs[firstIndex];
-            doorLocs.erase(doorLocs.begin() + firstIndex);
-            iRoom.door1 = firstDoor;
-            grid[firstDoor.y][firstDoor.x] = 'D';
 
-            if(iRoom.sizex == 3 || iRoom.sizey == 3)
+            for(int i = 0; i < doorAmt; i++)
             {
-                //Large room, two doors
-                iRoom.two_doors = true;
-                int secondIndex = rand() % doorLocs.size();
-                point secondDoor = doorLocs[secondIndex];
-                iRoom.door2 = secondDoor;
-                grid[secondDoor.y][secondDoor.x] = 'D';
+                int firstIndex = rand() % doorLocs.size();
+                point door = doorLocs[firstIndex];
+                doorLocs.erase(doorLocs.begin() + firstIndex);
+                iRoom.doors.push_back(door);
+                grid[door.y][door.x] = 'D';
             }
 
             
@@ -309,11 +349,10 @@ bool makeChunk(vector<vector<char>>& grid, vector<room>& rooms, int numRooms, in
     vector<path> edges;
 
     //add all door entrances
-    for(room i : rooms)
+    for(room rm : rooms)
     {
-        vertices.push_back(i.door1);
-        if(i.two_doors)
-            vertices.push_back(i.door2);
+        for(point d : rm.doors)
+            vertices.push_back(d);
     }
 
     //add all chunk entrances
@@ -525,7 +564,7 @@ AChunk::AChunk()
 
 
 
-void AChunk::SetHashAndGenerate(int32 x, int32 y, int32 salt, std::vector<int32> ltrb)
+void AChunk::SetHashAndGenerate(int32 x, int32 y, int32 salt, std::vector<int32> ltrb, bool isCenter)
 {
 	//hash location
 	std::string identifier = std::to_string(x) + "_" + std::to_string(y);
@@ -543,23 +582,41 @@ void AChunk::SetHashAndGenerate(int32 x, int32 y, int32 salt, std::vector<int32>
     //determine number of rooms before generation
     //constant across all tries
     int numRooms = rand() % 3 + 1;
-    while(failed && iterator < 1000)
+
+    if(!isCenter)
     {
-        ltrbEntrances = ltrb;
-        for(int& edge : ltrbEntrances)
+        while(failed && iterator < 1000)
         {
-            if(edge == -1)
+            ltrbEntrances = ltrb;
+            for(int& edge : ltrbEntrances)
             {
-                edge = rand() % (CHUNK_DIM - 2) + 1;
+                if(edge == -1)
+                {
+                    edge = rand() % (CHUNK_DIM - 2) + 1;
+                }
             }
+
+            failed = makeChunk(characterLayout, roomSpecs, numRooms, ltrbEntrances[(int32) SIDE::LEFT], ltrbEntrances[(int32) SIDE::TOP], ltrbEntrances[(int32) SIDE::RIGHT], ltrbEntrances[(int32) SIDE::BOTTOM]);
+            UE_LOG(LogTemp, Warning, TEXT("Try X: %d Y: %d"), x, y);
+            iterator++;
         }
 
-        failed = makeChunk(characterLayout, roomSpecs, numRooms, ltrbEntrances[(int32) SIDE::LEFT], ltrbEntrances[(int32) SIDE::TOP], ltrbEntrances[(int32) SIDE::RIGHT], ltrbEntrances[(int32) SIDE::BOTTOM]);
-        UE_LOG(LogTemp, Warning, TEXT("Try X: %d Y: %d"), x, y);
-        iterator++;
+        if(failed)
+        {
+            ltrbEntrances = ltrb;
+            for(int& edge : ltrbEntrances)
+            {
+                if(edge == -1)
+                {
+                    edge = rand() % (CHUNK_DIM - 2) + 1;
+                }
+            }
+            UE_LOG(LogTemp, Warning, TEXT("Backup Chunk X: %d Y: %d"), x, y);
+            //backup boring chunk gen that cannot fail
+            makeChunk(characterLayout, roomSpecs, numRooms, ltrbEntrances[(int32) SIDE::LEFT], ltrbEntrances[(int32) SIDE::TOP], ltrbEntrances[(int32) SIDE::RIGHT], ltrbEntrances[(int32) SIDE::BOTTOM], true);
+        }
     }
-
-    if(failed)
+    else
     {
         ltrbEntrances = ltrb;
         for(int& edge : ltrbEntrances)
@@ -569,9 +626,8 @@ void AChunk::SetHashAndGenerate(int32 x, int32 y, int32 salt, std::vector<int32>
                 edge = rand() % (CHUNK_DIM - 2) + 1;
             }
         }
-        UE_LOG(LogTemp, Warning, TEXT("Backup Chunk X: %d Y: %d"), x, y);
-        //backup boring chunk gen that cannot fail
-        makeChunk(characterLayout, roomSpecs, numRooms, ltrbEntrances[(int32) SIDE::LEFT], ltrbEntrances[(int32) SIDE::TOP], ltrbEntrances[(int32) SIDE::RIGHT], ltrbEntrances[(int32) SIDE::BOTTOM], true);
+        UE_LOG(LogTemp, Warning, TEXT("Making Center Chunk"));
+        makeCenterChunk(characterLayout, roomSpecs, ltrbEntrances[(int32) SIDE::LEFT], ltrbEntrances[(int32) SIDE::TOP], ltrbEntrances[(int32) SIDE::RIGHT], ltrbEntrances[(int32) SIDE::BOTTOM]);
     }
 }
 
@@ -647,9 +703,9 @@ bool checkOccupancyEdges(int32 x, int32 y, vector<vector<char>>& grid, vector<in
 
 bool isInsideRoom(point tile, room r)
 {
-    if(tile.x >= r.location.x + r.sizex)
+    if(tile.x >= r.location.x + r.size.x)
         return false;
-    else if(tile.y >= r.location.y + r.sizey)
+    else if(tile.y >= r.location.y + r.size.y)
         return false;
     else if(tile.x < r.location.x)
         return false;
@@ -716,28 +772,20 @@ void AChunk::OnConstruction(const FTransform& Transform)
         //add in all rooms and doors
         for(room r : roomSpecs)
         {
-
-            if (r.sizex + r.sizey == 2)
-                UE_LOG(LogTemp, Warning, TEXT("Spawned 1x1 room"));
-            vector<point> doors;
-            doors.push_back(r.door1);
-            if(r.two_doors)
-                doors.push_back(r.door2);
-
-            for(point d : doors)
+            for(point d : r.doors)
             {
                 //fill array with status of adjacents
                 vector<bool> dirs;
-                    dirs.push_back(point(d.x + 1, d.y).checkOccupancy(characterLayout));
-                    dirs.push_back(point(d.x, d.y + 1).checkOccupancy(characterLayout));
-                    dirs.push_back(point(d.x - 1, d.y).checkOccupancy(characterLayout));
-                    dirs.push_back(point(d.x, d.y - 1).checkOccupancy(characterLayout));
+                dirs.push_back(checkOccupancyEdges(d.x + 1, d.y, characterLayout, ltrbEntrances));
+                dirs.push_back(checkOccupancyEdges(d.x, d.y + 1, characterLayout, ltrbEntrances));
+                dirs.push_back(checkOccupancyEdges(d.x - 1, d.y, characterLayout, ltrbEntrances));
+                dirs.push_back(checkOccupancyEdges(d.x, d.y - 1, characterLayout, ltrbEntrances));
 
-                if(d.x == r.location.x + r.sizex)
+                if(d.x == r.location.x + r.size.x)
                 {
                     dirs[(int32)SIDE::RIGHT] = true;
                 }
-                else if(d.y == r.location.y + r.sizey)
+                else if(d.y == r.location.y + r.size.y)
                 {
                     dirs[(int32)SIDE::BOTTOM] = true;
                 }
@@ -785,9 +833,9 @@ void AChunk::OnConstruction(const FTransform& Transform)
             }
 
             //iterate through all room tiles
-            for(int x = r.location.x; x < r.location.x + r.sizex; x++)
+            for(int x = r.location.x; x < r.location.x + r.size.x; x++)
             {
-                for(int y = r.location.y; y < r.location.y + r.sizey; y++)
+                for(int y = r.location.y; y < r.location.y + r.size.y; y++)
                 {
                     //fill array with status of adjacents
                     vector<RSIDE> dirs;
@@ -798,29 +846,21 @@ void AChunk::OnConstruction(const FTransform& Transform)
 
                     //add door to directions vector if applicable
                     point left(x + 1, y);
-                    if(left == r.door1 || (left == r.door2 && r.two_doors))
-                    {
-                        dirs[(int32)SIDE::LEFT] = DOOR;
-                    }
-
-                    point right(x - 1, y);
-                    if(right == r.door1 || (right == r.door2 && r.two_doors))
-                    {
-                        dirs[(int32)SIDE::RIGHT] = DOOR;
-                    }
-
                     point top(x, y + 1);
-                    if(top == r.door1 || (top == r.door2 && r.two_doors))
-                    {
-                        dirs[(int32)SIDE::TOP] = DOOR;
-                    }
-
+                    point right(x - 1, y);
                     point bottom(x, y - 1);
-                    if(bottom == r.door1 || (bottom == r.door2 && r.two_doors))
+                    
+                    for(point d : r.doors)
                     {
-                        dirs[(int32)SIDE::BOTTOM] = DOOR;
+                        if(d == left)
+                            dirs[(int32)SIDE::LEFT] = DOOR;                    
+                        if(d == top)
+                            dirs[(int32)SIDE::TOP] = DOOR;
+                        if(d == right)
+                            dirs[(int32)SIDE::RIGHT] = DOOR;
+                        if(d == bottom)
+                            dirs[(int32)SIDE::BOTTOM] = DOOR;
                     }
-
                     //find what part and rotation to use
                     int rot = 0;
                     UClass* roomFab = rotationalRoomEquivalent(rot, dirs);

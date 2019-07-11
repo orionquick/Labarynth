@@ -50,7 +50,7 @@ void AChunkerGameMode::EvaluateChunks()
             std::string key = std::to_string(chunkX) + "_" + std::to_string(chunkY);
             auto location = chunk_holding.find(key);
 
-            if(GEngine)
+            /* if(GEngine)
             {                
                 GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Player Chunk X=%d Y=%d"), chunkX, chunkY));
                 if(location != chunk_holding.end())
@@ -61,7 +61,7 @@ void AChunkerGameMode::EvaluateChunks()
                         GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString(printRow(chunk->characterLayout, i).c_str())); 
                     }
                 }    
-            }    
+            }  */  
             //check all adjacent chunks
             VerifyOrSpawnNew(chunkX - 1, chunkY - 1);
             VerifyOrSpawnNew(chunkX - 1, chunkY);
@@ -87,7 +87,7 @@ void AChunkerGameMode::VerifyOrSpawnNew(int32 X, int32 Y)
 
     //if the key doesn't exist, spawn a new chunk
     //unless it is chunk 0,0
-    if(location == chunk_holding.end() && !isCenter)
+    if(location == chunk_holding.end())
     {
         UE_LOG(LogTemp, Warning, TEXT("Spawning new chunk at X=%d Y=%d"), X, Y);
         //spawn into level
@@ -99,7 +99,7 @@ void AChunkerGameMode::VerifyOrSpawnNew(int32 X, int32 Y)
         ltrb.push_back(GetEntrance(X - 1 ,Y , (int32) SIDE::LEFT));
         ltrb.push_back(GetEntrance(X ,Y - 1 , (int32) SIDE::TOP));
 
-        newChunk->SetHashAndGenerate(X, Y, salt, ltrb);
+        newChunk->SetHashAndGenerate(X, Y, salt, ltrb, isCenter);
         newChunk->FinishSpawning(FTransform(spawnLoc));
         newChunk->SetReplicates(true);
 
