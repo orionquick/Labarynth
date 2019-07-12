@@ -67,7 +67,7 @@ struct path
         {
             middle = point(start.x, end.y);
         }
-        
+
         delta1 = start.deltaTo(middle);
         delta2 = middle.deltaTo(end);
 
@@ -98,7 +98,7 @@ bool makeCenterChunk(vector<vector<char>>& grid, vector<room>& rooms, int l, int
 
     //place doors at entrances
     std::vector<point> doorsLTRB;
-            
+
     doorsLTRB.push_back(point(CHUNK_DIM - 1, l));
     doorsLTRB.push_back(point(t, CHUNK_DIM - 1));
     doorsLTRB.push_back(point(0, r));
@@ -154,7 +154,7 @@ bool makeChunk(vector<vector<char>>& grid, vector<room>& rooms, int numRooms, in
         {
             //find size of room
             int roomChance = rand() % 100;
-            
+
             if(roomChance < 20) //20%
             {
                 iRoom.size.x = 1;
@@ -242,7 +242,7 @@ bool makeChunk(vector<vector<char>>& grid, vector<room>& rooms, int numRooms, in
                     }
                 }
             }
-            
+
             //spaces on right side
             if(iRoom.location.x + iRoom.size.x != CHUNK_DIM)
             {
@@ -254,7 +254,7 @@ bool makeChunk(vector<vector<char>>& grid, vector<room>& rooms, int numRooms, in
                     }
                 }
             }
-            
+
             //spaces on bottom side
             if(iRoom.location.y != 0)
             {
@@ -298,7 +298,7 @@ bool makeChunk(vector<vector<char>>& grid, vector<room>& rooms, int numRooms, in
                 grid[door.y][door.x] = 'D';
             }
 
-            
+
         }
     }
 
@@ -321,8 +321,8 @@ bool makeChunk(vector<vector<char>>& grid, vector<room>& rooms, int numRooms, in
         //try all combinations of x_then_y to find valid path
         for(int i = 0; i < 4; i++)
         {
-            l_to_r.x_then_y = (i % 2);
-            t_to_b.x_then_y = (i / 2);
+            l_to_r.x_then_y = (i % 2) != 0;
+            t_to_b.x_then_y = (i / 2) != 0;
             l_to_r.length = 0;
             t_to_b.length = 0;
 
@@ -446,7 +446,7 @@ void rotationalHallEquivalent(HallTileTypes& part, int& rotation, std::vector<bo
             part = HallTileTypes::hall00;
             return;
         }
-        
+
         if(ltrb == straight)
         {
             part = HallTileTypes::hall01;
@@ -647,7 +647,7 @@ bool checkOccupancyEdges(int32 x, int32 y, vector<vector<char>>& grid, vector<in
         {
             return false;
         }
-        
+
     }
     else if(y >= CHUNK_DIM)
     {
@@ -660,7 +660,7 @@ bool checkOccupancyEdges(int32 x, int32 y, vector<vector<char>>& grid, vector<in
         {
             return false;
         }
-        
+
     }
     else if(x < 0)
     {
@@ -673,8 +673,8 @@ bool checkOccupancyEdges(int32 x, int32 y, vector<vector<char>>& grid, vector<in
         {
             return false;
         }
-        
-    }  
+
+    }
     else if(y < 0)
     {
         //OOB
@@ -686,8 +686,8 @@ bool checkOccupancyEdges(int32 x, int32 y, vector<vector<char>>& grid, vector<in
         {
             return false;
         }
-        
-    }  
+
+    }
     else
     {
         if(grid[y][x] == 'H' || grid[y][x] == 'D')
@@ -712,7 +712,7 @@ bool isInsideRoom(point tile, room r)
     else if(tile.y < r.location.y)
         return false;
     else
-        return true;                          
+        return true;
 }
 
 void AChunk::OnConstruction(const FTransform& Transform)
@@ -849,11 +849,11 @@ void AChunk::OnConstruction(const FTransform& Transform)
                     point top(x, y + 1);
                     point right(x - 1, y);
                     point bottom(x, y - 1);
-                    
+
                     for(point d : r.doors)
                     {
                         if(d == left)
-                            dirs[(int32)SIDE::LEFT] = DOOR;                    
+                            dirs[(int32)SIDE::LEFT] = DOOR;
                         if(d == top)
                             dirs[(int32)SIDE::TOP] = DOOR;
                         if(d == right)
@@ -910,7 +910,7 @@ void AChunk::OnConstruction(const FTransform& Transform)
 void AChunk::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame
